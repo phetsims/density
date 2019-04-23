@@ -29,6 +29,7 @@ require.config( {
     AXON: '../../axon/js',
     BRAND: '../../brand/' + phet.chipper.brand + '/js',
     DENSITY: '.',
+    DENSITY_BUOYANCY_COMMON: '../../density-buoyancy-common/js',
     DOT: '../../dot/js',
     JOIST: '../../joist/js',
     KITE: '../../kite/js',

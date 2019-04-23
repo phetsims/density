@@ -9,9 +9,10 @@ define( require => {
   'use strict';
 
   // modules
+  const ComparingScreen = require( 'DENSITY/view/ComparingScreen' );
+  const IntroScreen = require( 'DENSITY/view/IntroScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
-  const DensityScreen = require( 'DENSITY/density/DensityScreen' );
   const Tandem = require( 'TANDEM/Tandem' );
 
   // strings
@@ -34,7 +35,8 @@ define( require => {
   // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
     const sim = new Sim( densityTitleString, [
-      new DensityScreen( Tandem.rootTandem.createTandem( 'densityScreen' ) )
+      new IntroScreen( Tandem.rootTandem.createTandem( 'introScreen' ) ),
+      new ComparingScreen( Tandem.rootTandem.createTandem( 'comparingScreen' ) )
     ], simOptions );
     sim.start();
   } );

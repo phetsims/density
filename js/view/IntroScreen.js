@@ -9,10 +9,10 @@ define( require => {
   'use strict';
 
   // modules
-  const DemoModel = require( 'DENSITY_BUOYANCY_COMMON/common/model/DemoModel' );
   const DemoScreenView = require( 'DENSITY_BUOYANCY_COMMON/common/view/DemoScreenView' );
   const density = require( 'DENSITY/density' );
   const DensityBuoyancyCommonColorProfile = require( 'DENSITY_BUOYANCY_COMMON/common/view/DensityBuoyancyCommonColorProfile' );
+  const DensityBuoyancyModel = require( 'DENSITY_BUOYANCY_COMMON/common/model/DensityBuoyancyModel' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
@@ -24,7 +24,7 @@ define( require => {
      */
     constructor( tandem ) {
       super(
-        () => new DemoModel( tandem.createTandem( 'model' ) ),
+        () => new DensityBuoyancyModel( tandem.createTandem( 'model' ) ),
         model => new DemoScreenView( model, tandem.createTandem( 'view' ) ),
         {
           name: screenIntroString,

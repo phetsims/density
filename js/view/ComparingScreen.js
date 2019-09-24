@@ -9,10 +9,10 @@ define( require => {
   'use strict';
 
   // modules
+  const Demo3DModel = require( 'DENSITY_BUOYANCY_COMMON/common/model/Demo3DModel' );
   const Demo3DScreenView = require( 'DENSITY_BUOYANCY_COMMON/common/view/Demo3DScreenView' );
   const density = require( 'DENSITY/density' );
   const DensityBuoyancyCommonColorProfile = require( 'DENSITY_BUOYANCY_COMMON/common/view/DensityBuoyancyCommonColorProfile' );
-  const DensityBuoyancyModel = require( 'DENSITY_BUOYANCY_COMMON/common/model/DensityBuoyancyModel' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
@@ -24,7 +24,7 @@ define( require => {
      */
     constructor( tandem ) {
       super(
-        () => new DensityBuoyancyModel( tandem.createTandem( 'model' ) ),
+        () => new Demo3DModel( tandem.createTandem( 'model' ) ),
         model => new Demo3DScreenView( model, tandem.createTandem( 'view' ) ),
         {
           name: screenComparingString,

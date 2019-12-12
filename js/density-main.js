@@ -37,9 +37,9 @@ define( require => {
   // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
     const sim = new Sim( densityTitleString, [
-      new IntroScreen( Tandem.rootTandem.createTandem( 'introScreen' ) ),
-      new ComparingScreen( Tandem.rootTandem.createTandem( 'comparingScreen' ) ),
-      new DevScreen( Tandem.rootTandem.createTandem( 'devScreen' ) )
+      new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
+      new ComparingScreen( Tandem.ROOT.createTandem( 'comparingScreen' ) ),
+      new DevScreen( Tandem.ROOT.createTandem( 'devScreen' ) )
     ], simOptions );
     sim.start();
   } );

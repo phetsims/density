@@ -10,24 +10,24 @@ define( require => {
 
   // modules
   const DensityComparingModel = require( 'DENSITY_BUOYANCY_COMMON/density/model/DensityComparingModel' );
-  const DensityComparingScreenView = require( 'DENSITY_BUOYANCY_COMMON/density/view/DensityComparingScreenView' );
+  const DensityCompareScreenView = require( 'DENSITY_BUOYANCY_COMMON/density/view/DensityCompareScreenView' );
   const density = require( 'DENSITY/density' );
   const DensityBuoyancyCommonColorProfile = require( 'DENSITY_BUOYANCY_COMMON/common/view/DensityBuoyancyCommonColorProfile' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
-  const screenComparingString = require( 'string!DENSITY/screen.comparing' );
+  const screenCompareString = require( 'string!DENSITY/screen.compare' );
 
-  class ComparingScreen extends Screen {
+  class CompareScreen extends Screen {
     /**
      * @param {Tandem} tandem
      */
     constructor( tandem ) {
       super(
         () => new DensityComparingModel( tandem.createTandem( 'model' ) ),
-        model => new DensityComparingScreenView( model, tandem.createTandem( 'view' ) ),
+        model => new DensityCompareScreenView( model, tandem.createTandem( 'view' ) ),
         {
-          name: screenComparingString,
+          name: screenCompareString,
           backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
           tandem: tandem
         }
@@ -35,5 +35,5 @@ define( require => {
     }
   }
 
-  return density.register( 'ComparingScreen', ComparingScreen );
+  return density.register( 'CompareScreen', CompareScreen );
 } );

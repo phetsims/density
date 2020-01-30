@@ -5,7 +5,7 @@
   "screen.intro": {
     "value": "Intro"
   },
-  "screen.comparing": {
-    "value": "Comparing"
+  "screen.compare": {
+    "value": "Compare"
   }
 }

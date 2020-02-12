@@ -7,5 +7,8 @@
   },
   "screen.compare": {
     "value": "Compare"
+  },
+  "screen.mystery": {
+    "value": "Mystery"
   }
 }

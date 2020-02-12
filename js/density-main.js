@@ -11,6 +11,7 @@ define( require => {
   // modules
   const CompareScreen = require( 'DENSITY/view/CompareScreen' );
   const IntroScreen = require( 'DENSITY/view/IntroScreen' );
+  const MysteryScreen = require( 'DENSITY/view/MysteryScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
@@ -37,7 +38,8 @@ define( require => {
   SimLauncher.launch( () => {
     const sim = new Sim( densityTitleString, [
       new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
-      new CompareScreen( Tandem.ROOT.createTandem( 'comparingScreen' ) )
+      new CompareScreen( Tandem.ROOT.createTandem( 'comparingScreen' ) ),
+      new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )
     ], simOptions );
     sim.start();
   } );

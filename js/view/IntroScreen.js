@@ -5,35 +5,33 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const density = require( 'DENSITY/density' );
-  const DensityBuoyancyCommonColorProfile = require( 'DENSITY_BUOYANCY_COMMON/common/view/DensityBuoyancyCommonColorProfile' );
-  const DensityIntroModel = require( 'DENSITY_BUOYANCY_COMMON/density/model/DensityIntroModel' );
-  const DensityIntroScreenView = require( 'DENSITY_BUOYANCY_COMMON/density/view/DensityIntroScreenView' );
-  const Screen = require( 'JOIST/Screen' );
+import DensityBuoyancyCommonColorProfile
+  from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColorProfile.js';
+import DensityIntroModel from '../../../density-buoyancy-common/js/density/model/DensityIntroModel.js';
+import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/view/DensityIntroScreenView.js';
+import Screen from '../../../joist/js/Screen.js';
+import densityStrings from '../density-strings.js';
+import density from '../density.js';
 
-  // strings
-  const screenIntroString = require( 'string!DENSITY/screen.intro' );
+const screenIntroString = densityStrings.screen.intro;
 
-  class IntroScreen extends Screen {
-    /**
-     * @param {Tandem} tandem
-     */
-    constructor( tandem ) {
-      super(
-        () => new DensityIntroModel( tandem.createTandem( 'model' ) ),
-        model => new DensityIntroScreenView( model, tandem.createTandem( 'view' ) ),
-        {
-          name: screenIntroString,
-          backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
-          tandem: tandem
-        }
-      );
-    }
+class IntroScreen extends Screen {
+  /**
+   * @param {Tandem} tandem
+   */
+  constructor( tandem ) {
+    super(
+      () => new DensityIntroModel( tandem.createTandem( 'model' ) ),
+      model => new DensityIntroScreenView( model, tandem.createTandem( 'view' ) ),
+      {
+        name: screenIntroString,
+        backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
+        tandem: tandem
+      }
+    );
   }
+}
 
-  return density.register( 'IntroScreen', IntroScreen );
-} );
+density.register( 'IntroScreen', IntroScreen );
+export default IntroScreen;

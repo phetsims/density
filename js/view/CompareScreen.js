@@ -5,35 +5,33 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const DensityCompareModel = require( 'DENSITY_BUOYANCY_COMMON/density/model/DensityCompareModel' );
-  const DensityCompareScreenView = require( 'DENSITY_BUOYANCY_COMMON/density/view/DensityCompareScreenView' );
-  const density = require( 'DENSITY/density' );
-  const DensityBuoyancyCommonColorProfile = require( 'DENSITY_BUOYANCY_COMMON/common/view/DensityBuoyancyCommonColorProfile' );
-  const Screen = require( 'JOIST/Screen' );
+import DensityBuoyancyCommonColorProfile
+  from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColorProfile.js';
+import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
+import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
+import Screen from '../../../joist/js/Screen.js';
+import densityStrings from '../density-strings.js';
+import density from '../density.js';
 
-  // strings
-  const screenCompareString = require( 'string!DENSITY/screen.compare' );
+const screenCompareString = densityStrings.screen.compare;
 
-  class CompareScreen extends Screen {
-    /**
-     * @param {Tandem} tandem
-     */
-    constructor( tandem ) {
-      super(
-        () => new DensityCompareModel( tandem.createTandem( 'model' ) ),
-        model => new DensityCompareScreenView( model, tandem.createTandem( 'view' ) ),
-        {
-          name: screenCompareString,
-          backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
-          tandem: tandem
-        }
-      );
-    }
+class CompareScreen extends Screen {
+  /**
+   * @param {Tandem} tandem
+   */
+  constructor( tandem ) {
+    super(
+      () => new DensityCompareModel( tandem.createTandem( 'model' ) ),
+      model => new DensityCompareScreenView( model, tandem.createTandem( 'view' ) ),
+      {
+        name: screenCompareString,
+        backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
+        tandem: tandem
+      }
+    );
   }
+}
 
-  return density.register( 'CompareScreen', CompareScreen );
-} );
+density.register( 'CompareScreen', CompareScreen );
+export default CompareScreen;

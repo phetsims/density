@@ -8,6 +8,7 @@
 
 import DensityBuoyancyCommonColorProfile
   from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColorProfile.js';
+import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityMysteryModel from '../../../density-buoyancy-common/js/density/model/DensityMysteryModel.js';
 import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
@@ -27,6 +28,7 @@ class MysteryScreen extends Screen {
       {
         name: screenMysteryString,
         backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
+        homeScreenIcon: DensityBuoyancyScreenView.getDensityMysteryIcon(),
         tandem: tandem
       }
     );

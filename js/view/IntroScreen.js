@@ -8,6 +8,7 @@
 
 import DensityBuoyancyCommonColorProfile
   from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColorProfile.js';
+import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityIntroModel from '../../../density-buoyancy-common/js/density/model/DensityIntroModel.js';
 import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/view/DensityIntroScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
@@ -27,6 +28,7 @@ class IntroScreen extends Screen {
       {
         name: screenIntroString,
         backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
+        homeScreenIcon: DensityBuoyancyScreenView.getDensityIntroIcon(),
         tandem: tandem
       }
     );

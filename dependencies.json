@@ -1,5 +1,5 @@
 {
-  "comment": "# density 1.0.0-dev.5 Thu Mar 26 2020 15:07:35 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# density 1.0.0-dev.6 Thu Mar 26 2020 22:24:38 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "a99a9ce9ee0774bf3ef509bf3e31ca7383f67478",
     "branch": "master"
@@ -17,11 +17,11 @@
     "branch": "master"
   },
   "density": {
-    "sha": "f8eaae841168bf399aaefef6064cf1ff0e2b9c51",
+    "sha": "3ab7a687bb09325d24e7684c9e2556f28b0d1f57",
     "branch": "master"
   },
   "density-buoyancy-common": {
-    "sha": "a1bd0dcd95d135a2fb79cc155d1b4ead475a270d",
+    "sha": "ba5e3d566fbdb9a9a8395d20bcaf7696687ab743",
     "branch": "master"
   },
   "dot": {
@@ -29,7 +29,7 @@
     "branch": "master"
   },
   "joist": {
-    "sha": "f820eee0cc719e8d722f6d93a9ed15d240b6acd6",
+    "sha": "0d3cf2ac9f7369ec77b83260db21023bef6591f7",
     "branch": "master"
   },
   "kite": {
@@ -37,7 +37,7 @@
     "branch": "master"
   },
   "mobius": {
-    "sha": "8ea588d39ed006520f98a307e6fec2f7fdaea221",
+    "sha": "f7b1dbd246693df10a2ba72164d8c33041ac9999",
     "branch": "master"
   },
   "phet-core": {

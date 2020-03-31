@@ -12,7 +12,7 @@ import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/commo
 import DensityMysteryModel from '../../../density-buoyancy-common/js/density/model/DensityMysteryModel.js';
 import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import densityStrings from '../density-strings.js';
+import densityStrings from '../densityStrings.js';
 import density from '../density.js';
 
 const screenMysteryString = densityStrings.screen.mystery;

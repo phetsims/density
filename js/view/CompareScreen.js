@@ -12,7 +12,7 @@ import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/commo
 import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
 import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import densityStrings from '../density-strings.js';
+import densityStrings from '../densityStrings.js';
 import density from '../density.js';
 
 const screenCompareString = densityStrings.screen.compare;

@@ -6,14 +6,13 @@
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
 
-import DensityBuoyancyCommonColorProfile
-  from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColorProfile.js';
+import DensityBuoyancyCommonColorProfile from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColorProfile.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityIntroModel from '../../../density-buoyancy-common/js/density/model/DensityIntroModel.js';
 import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/view/DensityIntroScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import densityStrings from '../densityStrings.js';
 import density from '../density.js';
+import densityStrings from '../densityStrings.js';
 
 const screenIntroString = densityStrings.screen.intro;
 

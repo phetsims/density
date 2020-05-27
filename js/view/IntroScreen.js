@@ -11,6 +11,7 @@ import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/commo
 import DensityIntroModel from '../../../density-buoyancy-common/js/density/model/DensityIntroModel.js';
 import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/view/DensityIntroScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
+import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
@@ -27,7 +28,10 @@ class IntroScreen extends Screen {
       {
         name: screenIntroString,
         backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
-        homeScreenIcon: DensityBuoyancyScreenView.getDensityIntroIcon(),
+        homeScreenIcon: new ScreenIcon( DensityBuoyancyScreenView.getDensityIntroIcon(), {
+          maxIconWidthProportion: 1,
+          maxIconHeightProportion: 1
+        } ),
         tandem: tandem
       }
     );

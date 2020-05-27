@@ -11,6 +11,7 @@ import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/commo
 import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
 import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
+import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
@@ -27,7 +28,10 @@ class CompareScreen extends Screen {
       {
         name: screenCompareString,
         backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
-        homeScreenIcon: DensityBuoyancyScreenView.getDensityCompareIcon(),
+        homeScreenIcon: new ScreenIcon( DensityBuoyancyScreenView.getDensityCompareIcon(), {
+          maxIconWidthProportion: 1,
+          maxIconHeightProportion: 1
+        } ),
         tandem: tandem
       }
     );

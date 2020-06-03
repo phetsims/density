@@ -1,5 +1,5 @@
 {
-  "comment": "# density 1.0.0-dev.10 Tue Jun 02 2020 12:24:48 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# density 1.0.0-dev.11 Wed Jun 03 2020 12:06:54 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "0b7a48c6b9ba48af48ae7419bd30c280c785f2cc",
     "branch": "master"
@@ -13,15 +13,15 @@
     "branch": "master"
   },
   "chipper": {
-    "sha": "3c3c7f2fd4a6940b1ca278966c4d44d1c5a731fb",
+    "sha": "a8d13f62b6de4a817a18b2d5fa27f1c9a5bae983",
     "branch": "master"
   },
   "density": {
-    "sha": "30d4e00762b7eee606558f32eda44cc2ff1978e4",
+    "sha": "de4b57e7847edc1126976840f76ceb6c93a1f4ad",
     "branch": "master"
   },
   "density-buoyancy-common": {
-    "sha": "4c692c5d14608a4c0c2f0f6128cf543888c62d5b",
+    "sha": "5ab3a6e8ab97d970bdae71e9513f2dad3deff42e",
     "branch": "master"
   },
   "dot": {
@@ -85,7 +85,7 @@
     "branch": "master"
   },
   "tambo": {
-    "sha": "4389b9363e4dedbd0618f247bb784ce47ba9e478",
+    "sha": "cbd8c1c8ba5457713bf43b56196d634a9c02d08d",
     "branch": "master"
   },
   "tandem": {

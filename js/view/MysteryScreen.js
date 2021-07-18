@@ -7,7 +7,7 @@
  */
 
 import DensityBuoyancyCommonQueryParameters from '../../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
-import DensityBuoyancyCommonColorProfile from '../../../density-buoyancy-common/js/common/view/densityBuoyancyCommonColorProfile.js';
+import densityBuoyancyCommonColorProfile from '../../../density-buoyancy-common/js/common/view/densityBuoyancyCommonColorProfile.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityMysteryModel from '../../../density-buoyancy-common/js/density/model/DensityMysteryModel.js';
 import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
@@ -32,7 +32,7 @@ class MysteryScreen extends Screen {
       model => new DensityMysteryScreenView( model, tandem.createTandem( 'view' ) ),
       {
         name: screenMysteryString,
-        backgroundColorProperty: DensityBuoyancyCommonColorProfile.skyBottomProperty,
+        backgroundColorProperty: densityBuoyancyCommonColorProfile.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1

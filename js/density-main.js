@@ -19,9 +19,9 @@ const densityTitleString = densityStrings.density.title;
 const simOptions = {
   credits: {
     //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
-    leadDesign: '',
-    softwareDevelopment: '',
-    team: '',
+    leadDesign: 'Diana L\u00f3pez Tavares, Kelly Lancaster',
+    softwareDevelopment: 'Jonathan Olson, Chris Malley (PixelZoom, Inc.), Sam Reid',
+    team: 'Wendy Adams, Trish Loeblein, Ariel Paul, Archie Paulson, Kathy Perkins, Noah Podolefsky, Amy Rouinfar, Carl Wieman',
     qualityAssurance: '',
     graphicArts: '',
     soundDesign: '',

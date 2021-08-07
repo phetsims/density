@@ -11,7 +11,7 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import densityStrings from './densityStrings.js';
 import CompareScreen from './view/CompareScreen.js';
-import IntroScreen from './view/IntroScreen.js';
+import ExploreScreen from './view/ExploreScreen.js';
 import MysteryScreen from './view/MysteryScreen.js';
 
 const densityTitleString = densityStrings.density.title;
@@ -34,8 +34,8 @@ const simOptions = {
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
   const sim = new Sim( densityTitleString, [
-    new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
-    new CompareScreen( Tandem.ROOT.createTandem( 'comparingScreen' ) ),
+    new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
+    new ExploreScreen( Tandem.ROOT.createTandem( 'exploreScreen' ) ),
     new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )
   ], simOptions );
   sim.start();

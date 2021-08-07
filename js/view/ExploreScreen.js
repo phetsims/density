@@ -1,7 +1,7 @@
 // Copyright 2019-2021, University of Colorado Boulder
 
 /**
- * Intro screen for Density
+ * Explore screen for Density
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
@@ -9,29 +9,29 @@
 import DensityBuoyancyCommonQueryParameters from '../../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
-import DensityIntroModel from '../../../density-buoyancy-common/js/density/model/DensityIntroModel.js';
-import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/view/DensityIntroScreenView.js';
+import DensityExploreModel from '../../../density-buoyancy-common/js/density/model/DensityExploreModel.js';
+import DensityExploreScreenView from '../../../density-buoyancy-common/js/density/view/DensityExploreScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
-import introScreenIcon from '../../mipmaps/intro-screen-icon_png.js';
+import exploreScreenIcon from '../../mipmaps/explore-screen-icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
-const screenIntroString = densityStrings.screen.intro;
+const screenExploreString = densityStrings.screen.explore;
 
-class IntroScreen extends Screen {
+class ExploreScreen extends Screen {
   /**
    * @param {Tandem} tandem
    */
   constructor( tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityIntroIcon() : new Image( introScreenIcon );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityExploreIcon() : new Image( exploreScreenIcon );
 
     super(
-      () => new DensityIntroModel( tandem.createTandem( 'model' ) ),
-      model => new DensityIntroScreenView( model, tandem.createTandem( 'view' ) ),
+      () => new DensityExploreModel( tandem.createTandem( 'model' ) ),
+      model => new DensityExploreScreenView( model, tandem.createTandem( 'view' ) ),
       {
-        name: screenIntroString,
+        name: screenExploreString,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,
@@ -43,5 +43,5 @@ class IntroScreen extends Screen {
   }
 }
 
-density.register( 'IntroScreen', IntroScreen );
-export default IntroScreen;
+density.register( 'ExploreScreen', ExploreScreen );
+export default ExploreScreen;

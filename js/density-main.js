@@ -9,10 +9,10 @@
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
+import CompareScreen from './compare/CompareScreen.js';
 import densityStrings from './densityStrings.js';
-import CompareScreen from './view/CompareScreen.js';
-import ExploreScreen from './view/ExploreScreen.js';
-import MysteryScreen from './view/MysteryScreen.js';
+import ExploreScreen from './explore/ExploreScreen.js';
+import MysteryScreen from './mystery/MysteryScreen.js';
 
 const densityTitleString = densityStrings.density.title;
 

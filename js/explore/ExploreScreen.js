@@ -28,8 +28,12 @@ class ExploreScreen extends Screen {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityExploreIcon() : new Image( exploreScreenIcon );
 
     super(
-      () => new DensityExploreModel( tandem.createTandem( 'model' ) ),
-      model => new DensityExploreScreenView( model, tandem.createTandem( 'view' ) ),
+      () => new DensityExploreModel( {
+        tandem: tandem.createTandem( 'model' )
+      } ),
+      model => new DensityExploreScreenView( model, {
+        tandem: tandem.createTandem( 'view' )
+      } ),
       {
         name: screenExploreString,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,

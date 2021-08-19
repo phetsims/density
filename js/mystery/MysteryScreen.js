@@ -28,8 +28,12 @@ class MysteryScreen extends Screen {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mysteryScreenIcon );
 
     super(
-      () => new DensityMysteryModel( tandem.createTandem( 'model' ) ),
-      model => new DensityMysteryScreenView( model, tandem.createTandem( 'view' ) ),
+      () => new DensityMysteryModel( {
+        tandem: tandem.createTandem( 'model' )
+      } ),
+      model => new DensityMysteryScreenView( model, {
+        tandem: tandem.createTandem( 'view' )
+      } ),
       {
         name: screenMysteryString,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,

@@ -28,8 +28,12 @@ class IntroScreen extends Screen {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityIntroIcon() : new Image( introScreenIcon );
 
     super(
-      () => new DensityIntroModel( tandem.createTandem( 'model' ) ),
-      model => new DensityIntroScreenView( model, tandem.createTandem( 'view' ) ),
+      () => new DensityIntroModel( {
+        tandem: tandem.createTandem( 'model' )
+      } ),
+      model => new DensityIntroScreenView( model, {
+        tandem: tandem.createTandem( 'view' )
+      } ),
       {
         name: screenIntroString,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,

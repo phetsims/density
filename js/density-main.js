@@ -9,9 +9,9 @@
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import IntroScreen from './intro/IntroScreen.js';
 import densityStrings from './densityStrings.js';
-import ExploreScreen from './explore/ExploreScreen.js';
+import CompareScreen from './compare/CompareScreen.js';
+import IntroScreen from './intro/IntroScreen.js';
 import MysteryScreen from './mystery/MysteryScreen.js';
 
 const densityTitleString = densityStrings.density.title;
@@ -35,7 +35,7 @@ const simOptions = {
 simLauncher.launch( () => {
   const sim = new Sim( densityTitleString, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
-    new ExploreScreen( Tandem.ROOT.createTandem( 'exploreScreen' ) ),
+    new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
     new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )
   ], simOptions );
   sim.start();

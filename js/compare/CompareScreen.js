@@ -1,7 +1,7 @@
 // Copyright 2019-2021, University of Colorado Boulder
 
 /**
- * Explore screen for Density
+ * Compare screen for Density
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
@@ -9,33 +9,33 @@
 import DensityBuoyancyCommonQueryParameters from '../../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
-import DensityExploreModel from '../../../density-buoyancy-common/js/density/model/DensityExploreModel.js';
-import DensityExploreScreenView from '../../../density-buoyancy-common/js/density/view/DensityExploreScreenView.js';
+import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
+import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Image from '../../../scenery/js/nodes/Image.js';
-import exploreScreenIcon from '../../mipmaps/explore-screen-icon_png.js';
+import compareScreenIcon from '../../mipmaps/compare-screen-icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
-const screenExploreString = densityStrings.screen.explore;
+const screenCompareString = densityStrings.screen.compare;
 
-class ExploreScreen extends Screen {
+class CompareScreen extends Screen {
   /**
    * @param {Tandem} tandem
    */
   constructor( tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityExploreIcon() : new Image( exploreScreenIcon );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compareScreenIcon );
 
     super(
-      () => new DensityExploreModel( {
+      () => new DensityCompareModel( {
         tandem: tandem.createTandem( 'model' )
       } ),
-      model => new DensityExploreScreenView( model, {
+      model => new DensityCompareScreenView( model, {
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: screenExploreString,
+        name: screenCompareString,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,
@@ -47,5 +47,5 @@ class ExploreScreen extends Screen {
   }
 }
 
-density.register( 'ExploreScreen', ExploreScreen );
-export default ExploreScreen;
+density.register( 'CompareScreen', CompareScreen );
+export default CompareScreen;

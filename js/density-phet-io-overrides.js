@@ -469,409 +469,409 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockE.volumeProperty": {
       "phetioFeatured": true
     },
-"density.mysteryScreen.model.blockSets.set1.blockA1.customDensityProperty": {
+"density.mysteryScreen.model.blockSets.set1.block1A.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.massProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockA1.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.massProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockB1.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1B.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.massProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockC1.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1C.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.massProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockD1.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1D.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.massProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.blockE1.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1E.volumeProperty": {
       "phetioFeatured": true
     },
-"density.mysteryScreen.model.blockSets.set2.blockA2.customDensityProperty": {
+"density.mysteryScreen.model.blockSets.set2.block2A.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.massProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockA2.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.massProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockB2.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2B.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.massProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockC2.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2C.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.massProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockD2.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2D.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.massProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.blockE2.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2E.volumeProperty": {
       "phetioFeatured": true
     },
-"density.mysteryScreen.model.blockSets.set3.blockA3.customDensityProperty": {
+"density.mysteryScreen.model.blockSets.set3.block3A.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.massProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockA3.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.massProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockB3.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3B.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.massProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockC3.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3C.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.massProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockD3.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3D.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.customDensityProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.inputEnabledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.massProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.massProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.materialEnumProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.materialProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.materialProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.nameProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.nameProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.userControlledProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.userControlledProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.visibleProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.blockE3.volumeProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3E.volumeProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.densityTableExpandedProperty": {

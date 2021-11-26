@@ -13,7 +13,7 @@ import DensityCompareModel from '../../../density-buoyancy-common/js/density/mod
 import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import Image from '../../../scenery/js/nodes/Image.js';
+import { Image } from '../../../scenery/js/imports.js';
 import compareScreenIcon from '../../mipmaps/compare-screen-icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';

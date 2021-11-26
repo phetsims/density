@@ -13,7 +13,7 @@ import DensityMysteryModel from '../../../density-buoyancy-common/js/density/mod
 import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import Image from '../../../scenery/js/nodes/Image.js';
+import { Image } from '../../../scenery/js/imports.js';
 import mysteryScreenIcon from '../../mipmaps/mystery-screen-icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';

@@ -13,7 +13,7 @@ import DensityIntroModel from '../../../density-buoyancy-common/js/density/model
 import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/view/DensityIntroScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import Image from '../../../scenery/js/nodes/Image.js';
+import { Image } from '../../../scenery/js/imports.js';
 import introScreenIcon from '../../mipmaps/intro-screen-icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';

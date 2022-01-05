@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "9f189d499f3ee11b7bc40357a7913b3120320105",
+    "sha": "89d40aec4440751545b4d35435beb3822a5d6433",
     "branch": "1.0"
   },
   "density-buoyancy-common": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "859614afba26004ea668b272dbf2ee5d41c7b5ae",
+    "sha": "0d2bc615e4af7359ce56f9f7dd026f0b20b450e6",
     "branch": "HEAD"
   },
   "kite": {
@@ -49,7 +49,7 @@
     "branch": "HEAD"
   },
   "phet-io": {
-    "sha": "b815fc131a2a150b421fd05de5e84aa9e77497a9",
+    "sha": "b5eb55a8177bb90b4e3582665422baebd5f4da11",
     "branch": "HEAD"
   },
   "phet-io-client-guides": {

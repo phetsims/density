@@ -22,7 +22,7 @@ const simOptions = {
     leadDesign: 'Diana L\u00f3pez Tavares, Kelly Lancaster',
     softwareDevelopment: 'Jonathan Olson, Chris Malley (PixelZoom, Inc.), Sam Reid',
     team: 'Wendy Adams, Trish Loeblein, Ariel Paul, Archie Paulson, Kathy Perkins, Noah Podolefsky, Amy Rouinfar, Carl Wieman',
-    qualityAssurance: 'Devon Quispe, Nancy Salpepi, Katie Woessner, Emily Miller, Brooklyn Lash',
+    qualityAssurance: 'Devon Quispe, Nancy Salpepi, Katie Woessner, Emily Miller, Brooklyn Lash, Jacob Romero, Logan Bray, Liam Mulhall, Steele Dalton',
     graphicArts: '',
     soundDesign: '',
     thanks: ''

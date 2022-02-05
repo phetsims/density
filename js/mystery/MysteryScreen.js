@@ -14,7 +14,7 @@ import DensityMysteryScreenView from '../../../density-buoyancy-common/js/densit
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
-import mysteryScreenIcon from '../../mipmaps/mystery-screen-icon_png.js';
+import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
@@ -25,7 +25,7 @@ class MysteryScreen extends Screen {
    * @param {Tandem} tandem
    */
   constructor( tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mysteryScreenIcon );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
 
     super(
       () => new DensityMysteryModel( {

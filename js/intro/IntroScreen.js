@@ -14,7 +14,7 @@ import DensityIntroScreenView from '../../../density-buoyancy-common/js/density/
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
-import introScreenIcon from '../../mipmaps/intro-screen-icon_png.js';
+import intro_screen_icon_png from '../../mipmaps/intro_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
@@ -25,7 +25,7 @@ class IntroScreen extends Screen {
    * @param {Tandem} tandem
    */
   constructor( tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityIntroIcon() : new Image( introScreenIcon );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityIntroIcon() : new Image( intro_screen_icon_png );
 
     super(
       () => new DensityIntroModel( {

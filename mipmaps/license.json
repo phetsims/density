@@ -1,5 +1,5 @@
 {
-  "compare-screen-icon.png": {
+  "compare_screen_icon.png": {
     "text": [
       "Copyright 2021 University of Colorado Boulder"
     ],
@@ -7,7 +7,7 @@
     "license": "contact phethelp@colorado.edu",
     "notes": "created by the simulation code"
   },
-  "intro-screen-icon.png": {
+  "intro_screen_icon.png": {
     "text": [
       "Copyright 2021 University of Colorado Boulder"
     ],
@@ -15,7 +15,7 @@
     "license": "contact phethelp@colorado.edu",
     "notes": "created by the simulation code"
   },
-  "mystery-screen-icon.png": {
+  "mystery_screen_icon.png": {
     "text": [
       "Copyright 2021 University of Colorado Boulder"
     ],

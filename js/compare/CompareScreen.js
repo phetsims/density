@@ -14,7 +14,7 @@ import DensityCompareScreenView from '../../../density-buoyancy-common/js/densit
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
-import compareScreenIcon from '../../mipmaps/compare-screen-icon_png.js';
+import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
@@ -25,7 +25,7 @@ class CompareScreen extends Screen {
    * @param {Tandem} tandem
    */
   constructor( tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compareScreenIcon );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
 
     super(
       () => new DensityCompareModel( {

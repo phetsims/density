@@ -292,19 +292,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockAControlPanel.massNumberControl.massNumberProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.view.blockAControlPanel.massNumberControl.titleNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockAControlPanel.massNumberControl.visibleProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockAControlPanel.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockAControlPanel.volumeNumberControl.titleNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockAControlPanel.volumeNumberControl.visibleProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.view.blockBControlPanel.comboBoxMaterialProperty": {
@@ -316,19 +304,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockBControlPanel.massNumberControl.massNumberProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.view.blockBControlPanel.massNumberControl.titleNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockBControlPanel.massNumberControl.visibleProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockBControlPanel.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockBControlPanel.volumeNumberControl.titleNode.textProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockBControlPanel.volumeNumberControl.visibleProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.blockSetProperty": {

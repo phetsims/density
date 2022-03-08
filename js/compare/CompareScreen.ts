@@ -1,7 +1,7 @@
 // Copyright 2019-2022, University of Colorado Boulder
 
 /**
- * Mystery screen for Density
+ * Compare screen for Density
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
@@ -9,33 +9,31 @@
 import DensityBuoyancyCommonQueryParameters from '../../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
-import DensityMysteryModel from '../../../density-buoyancy-common/js/density/model/DensityMysteryModel.js';
-import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
+import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
+import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import { Image } from '../../../scenery/js/imports.js';
-import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
+import Tandem from '../../../tandem/js/Tandem.js';
+import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
-const screenMysteryString = densityStrings.screen.mystery;
+const screenCompareString = densityStrings.screen.compare;
 
-class MysteryScreen extends Screen {
-  /**
-   * @param {Tandem} tandem
-   */
-  constructor( tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
+class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
+  constructor( tandem: Tandem ) {
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
 
     super(
-      () => new DensityMysteryModel( {
+      () => new DensityCompareModel( {
         tandem: tandem.createTandem( 'model' )
       } ),
-      model => new DensityMysteryScreenView( model, {
+      model => new DensityCompareScreenView( model, {
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: screenMysteryString,
+        name: screenCompareString,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,
@@ -47,5 +45,5 @@ class MysteryScreen extends Screen {
   }
 }
 
-density.register( 'MysteryScreen', MysteryScreen );
-export default MysteryScreen;
+density.register( 'CompareScreen', CompareScreen );
+export default CompareScreen;

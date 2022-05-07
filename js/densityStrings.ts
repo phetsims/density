@@ -9,12 +9,12 @@ import density from './density.js';
 
 type StringsType = {
   'density': {
-    'title': string
-  },
+    'title': string;
+  };
   'screen': {
-    'intro': string,
-    'compare': string,
-    'mystery': string
+    'intro': string;
+    'compare': string;
+    'mystery': string;
   }
 };
 

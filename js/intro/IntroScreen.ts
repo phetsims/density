@@ -22,7 +22,7 @@ import densityStrings from '../densityStrings.js';
 const screenIntroString = densityStrings.screen.intro;
 
 export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroScreenView> {
-  constructor( tandem: Tandem ) {
+  public constructor( tandem: Tandem ) {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityIntroIcon() : new Image( intro_screen_icon_png );
 
     super(

@@ -22,7 +22,7 @@ import densityStrings from '../densityStrings.js';
 const screenMysteryString = densityStrings.screen.mystery;
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
-  constructor( tandem: Tandem ) {
+  public constructor( tandem: Tandem ) {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
 
     super(

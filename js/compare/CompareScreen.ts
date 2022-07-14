@@ -22,7 +22,7 @@ import densityStrings from '../densityStrings.js';
 const screenCompareString = densityStrings.screen.compare;
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
-  constructor( tandem: Tandem ) {
+  public constructor( tandem: Tandem ) {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
 
     super(

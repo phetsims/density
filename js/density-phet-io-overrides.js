@@ -16,6 +16,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.userControlledProperty": {
       "phetioFeatured": true
     },
+    "density.compareScreen.model.blockSets.sameDensity.blueBlock.visibleProperty": {
+      "phetioFeatured": true
+    },
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.volumeProperty": {
       "phetioFeatured": true
     },
@@ -205,7 +208,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameVolume.yellowBlock.massProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameVolume.yellowBlock.sizeProperty": {
+    "density.compareScreen.model.blockSets.sameVolume.yellowBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.yellowBlock.userControlledProperty": {
@@ -220,6 +223,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.densityProperty": {
       "phetioFeatured": true
     },
+    "density.compareScreen.model.liquidDensityProperty": {
+      "phetioFeatured": true
+    },
     "density.compareScreen.model.massProperty": {
       "phetioFeatured": true
     },
@@ -232,10 +238,28 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.compareScreen.view.blocksPanel.blocksRadioButtonGroup.sameDensityRadioButton.label.textProperty": {
+      "phetioFeatured": true
+    },
+    "density.compareScreen.view.blocksPanel.blocksRadioButtonGroup.sameMassRadioButton.label.textProperty": {
+      "phetioFeatured": true
+    },
+    "density.compareScreen.view.blocksPanel.blocksRadioButtonGroup.sameVolumeRadioButton.label.textProperty": {
+      "phetioFeatured": true
+    },
     "density.compareScreen.view.blocksPanel.blocksRadioButtonGroup.visibleProperty": {
       "phetioFeatured": false
     },
     "density.compareScreen.view.blocksPanel.visibleProperty": {
+      "phetioFeatured": true
+    },
+    "density.compareScreen.view.densityNumberControl.visibleProperty": {
+      "phetioFeatured": true
+    },
+    "density.compareScreen.view.massNumberControl.visibleProperty": {
+      "phetioFeatured": true
+    },
+    "density.compareScreen.view.volumeNumberControl.visibleProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.model.blocks.blockA.inputEnabledProperty": {
@@ -277,6 +301,12 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.model.densityExpandedProperty": {
       "phetioFeatured": true
     },
+    "density.introScreen.model.liquidDensityProperty": {
+      "phetioFeatured": true
+    },
+    "density.introScreen.model.modeProperty": {
+      "phetioFeatured": true
+    },
     "density.introScreen.model.pool.liquidVolumeProperty": {
       "phetioFeatured": true
     },
@@ -301,13 +331,13 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockBControlPanel.massNumberControl.enabledMassRangeProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.view.blockBControlPanel.massNumberControl.massNumberProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockBControlPanel.visibleProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.blockSetProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.random.blockA.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockA.customDensityProperty": {
@@ -337,6 +367,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockA.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.random.blockB.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.random.blockB.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -362,6 +395,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockB.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.random.blockC.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockC.customDensityProperty": {
@@ -391,6 +427,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockC.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.random.blockD.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.random.blockD.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -416,6 +455,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockD.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.random.blockE.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockE.customDensityProperty": {
@@ -445,7 +487,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockE.volumeProperty": {
       "phetioFeatured": true
     },
-"density.mysteryScreen.model.blockSets.set1.block1A.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set1.block1A.customColorProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set1.block1A.customDensityProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1A.inputEnabledProperty": {
@@ -470,6 +515,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1A.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set1.block1B.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1B.customDensityProperty": {
@@ -499,6 +547,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set1.block1B.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.set1.block1C.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.set1.block1C.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -524,6 +575,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1C.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set1.block1D.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1D.customDensityProperty": {
@@ -553,6 +607,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set1.block1D.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.set1.block1E.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.set1.block1E.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -580,7 +637,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set1.block1E.volumeProperty": {
       "phetioFeatured": true
     },
-"density.mysteryScreen.model.blockSets.set2.block2A.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set2.block2A.customColorProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set2.block2A.customDensityProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2A.inputEnabledProperty": {
@@ -605,6 +665,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2A.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set2.block2B.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2B.customDensityProperty": {
@@ -634,6 +697,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set2.block2B.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.set2.block2C.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.set2.block2C.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -659,6 +725,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2C.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set2.block2D.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2D.customDensityProperty": {
@@ -688,6 +757,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set2.block2D.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.set2.block2E.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.set2.block2E.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -715,7 +787,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set2.block2E.volumeProperty": {
       "phetioFeatured": true
     },
-"density.mysteryScreen.model.blockSets.set3.block3A.customDensityProperty": {
+    "density.mysteryScreen.model.blockSets.set3.block3A.customColorProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set3.block3A.customDensityProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3A.inputEnabledProperty": {
@@ -740,6 +815,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3A.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set3.block3B.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3B.customDensityProperty": {
@@ -769,6 +847,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set3.block3B.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.set3.block3C.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.set3.block3C.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -796,6 +877,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set3.block3C.volumeProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.blockSets.set3.block3D.customColorProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.blockSets.set3.block3D.customDensityProperty": {
       "phetioFeatured": true
     },
@@ -821,6 +905,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3D.volumeProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.model.blockSets.set3.block3E.customColorProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3E.customDensityProperty": {
@@ -853,6 +940,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.densityTableExpandedProperty": {
       "phetioFeatured": true
     },
+    "density.mysteryScreen.model.liquidDensityProperty": {
+      "phetioFeatured": true
+    },
     "density.mysteryScreen.model.pool.liquidVolumeProperty": {
       "phetioFeatured": true
     },
@@ -866,6 +956,18 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.showMassesProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.view.blocksPanel.blocksRadioButtonGroup.randomRadioButton.label.textProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.view.blocksPanel.blocksRadioButtonGroup.set1RadioButton.label.textProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.view.blocksPanel.blocksRadioButtonGroup.set2RadioButton.label.textProperty": {
+      "phetioFeatured": true
+    },
+    "density.mysteryScreen.view.blocksPanel.blocksRadioButtonGroup.set3RadioButton.label.textProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.view.blocksPanel.visibleProperty": {

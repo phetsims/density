@@ -19,8 +19,6 @@ import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
-const screenCompareString = densityStrings.screen.compare;
-
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
@@ -33,7 +31,7 @@ export default class CompareScreen extends Screen<DensityCompareModel, DensityCo
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: screenCompareString,
+        name: densityStrings.screen.compareProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

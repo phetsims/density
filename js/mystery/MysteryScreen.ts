@@ -19,8 +19,6 @@ import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
-const screenMysteryString = densityStrings.screen.mystery;
-
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
@@ -33,7 +31,7 @@ export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMy
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: screenMysteryString,
+        name: densityStrings.screen.mysteryProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

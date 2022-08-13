@@ -14,8 +14,6 @@ import CompareScreen from './compare/CompareScreen.js';
 import IntroScreen from './intro/IntroScreen.js';
 import MysteryScreen from './mystery/MysteryScreen.js';
 
-const densityTitleString = densityStrings.density.title;
-
 const simOptions: SimOptions = {
   credits: {
     //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
@@ -36,7 +34,7 @@ const simOptions: SimOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( densityTitleString, [
+  const sim = new Sim( densityStrings.density.titleProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
     new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )

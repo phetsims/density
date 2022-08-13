@@ -19,8 +19,6 @@ import intro_screen_icon_png from '../../mipmaps/intro_screen_icon_png.js';
 import density from '../density.js';
 import densityStrings from '../densityStrings.js';
 
-const screenIntroString = densityStrings.screen.intro;
-
 export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroScreenView> {
   public constructor( tandem: Tandem ) {
     const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityIntroIcon() : new Image( intro_screen_icon_png );
@@ -33,7 +31,7 @@ export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroS
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: screenIntroString,
+        name: densityStrings.screen.introProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

@@ -31,7 +31,7 @@ export default class CompareScreen extends Screen<DensityCompareModel, DensityCo
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: densityStrings.screen.compareProperty,
+        name: densityStrings.screen.compareStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

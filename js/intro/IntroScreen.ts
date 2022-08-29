@@ -31,7 +31,7 @@ export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroS
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: densityStrings.screen.introProperty,
+        name: densityStrings.screen.introStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

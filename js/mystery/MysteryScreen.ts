@@ -31,7 +31,7 @@ export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMy
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: densityStrings.screen.mysteryProperty,
+        name: densityStrings.screen.mysteryStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

@@ -11,15 +11,15 @@ import density from './density.js';
 type StringsType = {
   'density': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'intro': string;
-    'introProperty': TReadOnlyProperty<string>;
+    'introStringProperty': TReadOnlyProperty<string>;
     'compare': string;
-    'compareProperty': TReadOnlyProperty<string>;
+    'compareStringProperty': TReadOnlyProperty<string>;
     'mystery': string;
-    'mysteryProperty': TReadOnlyProperty<string>;
+    'mysteryStringProperty': TReadOnlyProperty<string>;
   }
 };
 

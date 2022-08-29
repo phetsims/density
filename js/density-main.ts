@@ -34,7 +34,7 @@ const simOptions: SimOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( densityStrings.density.titleProperty, [
+  const sim = new Sim( densityStrings.density.titleStringProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
     new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )

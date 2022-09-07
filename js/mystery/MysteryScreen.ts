@@ -17,7 +17,7 @@ import { Image } from '../../../scenery/js/imports.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
 import density from '../density.js';
-import densityStrings from '../densityStrings.js';
+import DensityStrings from '../DensityStrings.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {
@@ -31,7 +31,7 @@ export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMy
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: densityStrings.screen.mysteryStringProperty,
+        name: DensityStrings.screen.mysteryStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

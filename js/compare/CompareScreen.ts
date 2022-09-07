@@ -17,7 +17,7 @@ import { Image } from '../../../scenery/js/imports.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
-import densityStrings from '../densityStrings.js';
+import DensityStrings from '../DensityStrings.js';
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {
@@ -31,7 +31,7 @@ export default class CompareScreen extends Screen<DensityCompareModel, DensityCo
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: densityStrings.screen.compareStringProperty,
+        name: DensityStrings.screen.compareStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

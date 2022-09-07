@@ -23,8 +23,8 @@ type StringsType = {
   }
 };
 
-const densityStrings = getStringModule( 'DENSITY' ) as StringsType;
+const DensityStrings = getStringModule( 'DENSITY' ) as StringsType;
 
-density.register( 'densityStrings', densityStrings );
+density.register( 'DensityStrings', DensityStrings );
 
-export default densityStrings;
+export default DensityStrings;

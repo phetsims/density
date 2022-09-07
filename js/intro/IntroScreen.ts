@@ -17,7 +17,7 @@ import { Image } from '../../../scenery/js/imports.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import intro_screen_icon_png from '../../mipmaps/intro_screen_icon_png.js';
 import density from '../density.js';
-import densityStrings from '../densityStrings.js';
+import DensityStrings from '../DensityStrings.js';
 
 export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroScreenView> {
   public constructor( tandem: Tandem ) {
@@ -31,7 +31,7 @@ export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroS
         tandem: tandem.createTandem( 'view' )
       } ),
       {
-        name: densityStrings.screen.introStringProperty,
+        name: DensityStrings.screen.introStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
         homeScreenIcon: new ScreenIcon( icon, {
           maxIconWidthProportion: 1,

@@ -9,7 +9,7 @@
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import densityStrings from './densityStrings.js';
+import DensityStrings from './DensityStrings.js';
 import CompareScreen from './compare/CompareScreen.js';
 import IntroScreen from './intro/IntroScreen.js';
 import MysteryScreen from './mystery/MysteryScreen.js';
@@ -34,7 +34,7 @@ const simOptions: SimOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( densityStrings.density.titleStringProperty, [
+  const sim = new Sim( DensityStrings.density.titleStringProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
     new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )

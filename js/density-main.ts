@@ -16,7 +16,6 @@ import MysteryScreen from './mystery/MysteryScreen.js';
 
 const simOptions: SimOptions = {
   credits: {
-    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
     leadDesign: 'Diana L\u00f3pez Tavares, Kelly Lancaster',
     softwareDevelopment: 'Jonathan Olson, Chris Malley (PixelZoom, Inc.), Sam Reid',
     team: 'Wendy Adams, Trish Loeblein, Ariel Paul, Archie Paulson, Kathy Perkins, Noah Podolefsky, Amy Rouinfar, Carl Wieman',

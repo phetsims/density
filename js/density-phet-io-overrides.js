@@ -310,7 +310,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockAControlPanel.massNumberControl.enabledMassRangeProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.view.blockAControlPanel.massNumberControl.massNumberProperty": {
+    "density.introScreen.view.blockAControlPanel.massNumberControl.numberControlMassProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.view.blockAControlPanel.visibleProperty": {

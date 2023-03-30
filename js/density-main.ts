@@ -13,6 +13,8 @@ import DensityStrings from './DensityStrings.js';
 import CompareScreen from './compare/CompareScreen.js';
 import IntroScreen from './intro/IntroScreen.js';
 import MysteryScreen from './mystery/MysteryScreen.js';
+import DensityBuoyancyCommonPreferencesNode from '../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonPreferencesNode.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 
 const simOptions: SimOptions = {
   credits: {
@@ -25,6 +27,16 @@ const simOptions: SimOptions = {
     thanks: ''
   },
   webgl: true,
+
+  preferencesModel: new PreferencesModel( {
+    simulationOptions: {
+      customPreferences: [ {
+        createContent: tandem => new DensityBuoyancyCommonPreferencesNode( {
+          tandem: tandem.createTandem( 'simPreferences' )
+        } )
+      } ]
+    }
+  } ),
 
   // phet-io options
   phetioDesigned: true

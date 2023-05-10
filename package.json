@@ -31,7 +31,12 @@
     "published": true,
     "phet-io": {
       "compareDesignedAPIChanges": true
-    }
+    },
+    "screenNameKeys": [
+      "DENSITY/screen.intro",
+      "DENSITY/screen.compare",
+      "DENSITY/screen.mystery"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js",

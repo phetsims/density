@@ -31,7 +31,12 @@
     ],
     "simulation": true,
     "supportsOutputJS": true,
-    "published": true
+    "published": true,
+    "screenNameKeys": [
+      "DENSITY/screen.intro",
+      "DENSITY/screen.compare",
+      "DENSITY/screen.mystery"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js",

@@ -5,21 +5,21 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
-import LinkableProperty from '../../axon/js/LinkableProperty.js';
+import type LocalizedStringProperty from '../../chipper/js/LocalizedStringProperty.js';
 import density from './density.js';
 
 type StringsType = {
   'density': {
     'title': string;
-    'titleStringProperty': LinkableProperty<string>;
+    'titleStringProperty': LocalizedStringProperty;
   };
   'screen': {
     'intro': string;
-    'introStringProperty': LinkableProperty<string>;
+    'introStringProperty': LocalizedStringProperty;
     'compare': string;
-    'compareStringProperty': LinkableProperty<string>;
+    'compareStringProperty': LocalizedStringProperty;
     'mystery': string;
-    'mysteryStringProperty': LinkableProperty<string>;
+    'mysteryStringProperty': LocalizedStringProperty;
   }
 };
 

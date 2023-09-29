@@ -8,8 +8,8 @@ published version,
 
 ### Try it!
 
-<a href="https://phet.colorado.edu/sims/html/density/latest/density_en.html" target="_blank">Click here to run "
-Density".</a>
+<a href="https://phet.colorado.edu/sims/html/density/latest/density_en.html" target="_blank">Click here to
+run "Density".</a>
 
 <a href="https://phet.colorado.edu/sims/html/density/latest/density_en.html" target="_blank">
 <img src="https://raw.githubusercontent.com/phetsims/density/main/assets/density-screenshot.png" alt="Screenshot" style="width: 400px;"/>
@@ -70,8 +70,8 @@ new or changed files.
 
 (4) In a new terminal/command prompt, start an http-server
 
-(5) Open in the browser: `http://localhost/density/density_en.html` (You will probably need to modify this URL based on
-your HTTP port and relative path.)
+(5) Open in the browser: `http://localhost/density/density_en.html` (You will probably need to modify this
+URL based on your HTTP port and relative path.)
 
 #### Optional: Build the simulation into a single file
 
@@ -81,7 +81,8 @@ your HTTP port and relative path.)
 like `>> WARNING404: Skipping potentially non-public dependency`, which indicate that non-public PhET-iO code is not
 being included in the build.
 
-(3) Open in the browser: `http://localhost/density/build/adapted-from-phet/density_en_adapted-from-phet.html` (You will
+(3) Open in the
+browser: `http://localhost/density/build/adapted-from-phet/density_en_adapted-from-phet.html` (You will
 probably need to modify this URL based on your HTTP port and relative path.)
 
 ### Get Involved

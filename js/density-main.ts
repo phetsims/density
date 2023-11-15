@@ -15,6 +15,10 @@ import IntroScreen from './intro/IntroScreen.js';
 import MysteryScreen from './mystery/MysteryScreen.js';
 import DensityBuoyancyCommonPreferencesNode from '../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonPreferencesNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
+import DensityDescriptionStrings_en from './description/density-description-strings_en.js'; // eslint-disable-line default-import-match-filename
+import DensityDescriptionStrings_es from './description/density-description-strings_es.js'; // eslint-disable-line default-import-match-filename
+import DensityDescriptionLogic from './description/density-description-logic.js'; // eslint-disable-line default-import-match-filename
+import DescriptionContext from '../../joist/js/DescriptionContext.js';
 
 const simOptions: SimOptions = {
   credits: {
@@ -45,10 +49,18 @@ const simOptions: SimOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
+  DensityDescriptionStrings_en();
+  DensityDescriptionStrings_es();
+  DensityDescriptionLogic();
+
   const sim = new Sim( DensityStrings.density.titleStringProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),
     new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
     new MysteryScreen( Tandem.ROOT.createTandem( 'mysteryScreen' ) )
   ], simOptions );
+
+  sim.isConstructionCompleteProperty.lazyLink( isConstructionComplete => {
+    DescriptionContext.startupComplete();
+  } );
   sim.start();
 } );

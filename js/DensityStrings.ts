@@ -10,15 +10,11 @@ import density from './density.js';
 
 type StringsType = {
   'density': {
-    'title': string;
     'titleStringProperty': LocalizedStringProperty;
   };
   'screen': {
-    'intro': string;
     'introStringProperty': LocalizedStringProperty;
-    'compare': string;
     'compareStringProperty': LocalizedStringProperty;
-    'mystery': string;
     'mysteryStringProperty': LocalizedStringProperty;
   }
 };

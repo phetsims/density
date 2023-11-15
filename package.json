@@ -26,6 +26,10 @@
       "phet-io",
       "adapted-from-phet"
     ],
+    "simFeatures": {
+      "supportsDynamicLocale": true,
+      "supportsInteractiveDescription": true
+    },
     "simulation": true,
     "supportsOutputJS": true,
     "published": true,

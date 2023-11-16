@@ -1,13 +1,7 @@
 // Copyright 2023, University of Colorado Boulder
 
-// eslint-disable-next-line no-unused-vars
-let context;
-
 export default () => phet.joist.DescriptionContext.registerStrings( {
   locale: 'en',
-  launch( descriptionContext ) {
-    context = descriptionContext;
-  },
   screenSummaryPlayArea() {
     return 'The Play Area contains a large rectangular pool, partially filled with water. Blocks can be placed in the pool, or on top of the ground on either side.';
   },

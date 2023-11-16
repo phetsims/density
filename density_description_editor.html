@@ -239,7 +239,7 @@
   const logicEditor = CodeMirror( document.querySelector( '#logic-editor' ), {
     lineNumbers: true,
     tabSize: 2,
-    value: 'window.alert( "This is a Test" );\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\n',
+    value: localStorage.getItem( 'density-description-logic.js' ) || '// Copy-paste logic here, it will be saved',
     mode: 'javascript',
     theme: 'monokai',
     lineWrapping: true
@@ -249,7 +249,8 @@
   const stringsEditor = CodeMirror( document.querySelector( '#strings-editor' ), {
     lineNumbers: true,
     tabSize: 2,
-    value: 'window.alert( "This is a Test (strings)" );\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\na\n',
+    // TODO: generalize to locale-specific based on what locale the sim is https://github.com/phetsims/joist/issues/941
+    value: localStorage.getItem( 'density-description-strings_en.js' ) || '// Copy-paste logic here, it will be saved',
     mode: 'javascript',
     theme: 'monokai',
     lineWrapping: true
@@ -257,10 +258,17 @@
 
   logicEditor.on( 'change', editor => {
     console.log( editor.getValue() );
+
+    // TODO: generalize this to all sims https://github.com/phetsims/joist/issues/941
+    localStorage.setItem( 'density-description-logic.js', logicEditor.getValue() );
   } );
 
   stringsEditor.on( 'change', editor => {
     console.log( editor.getValue() );
+
+    // TODO: generalize this to all sims https://github.com/phetsims/joist/issues/941
+    // TODO: generalize locales https://github.com/phetsims/joist/issues/941
+    localStorage.setItem( 'density-description-strings_en.js', stringsEditor.getValue() );
   } );
 </script>
 

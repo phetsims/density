@@ -19,6 +19,7 @@ import DensityDescriptionStrings_en from './description/density-description-stri
 import DensityDescriptionStrings_es from './description/density-description-strings_es.js'; // eslint-disable-line default-import-match-filename
 import DensityDescriptionLogic from './description/density-description-logic.js'; // eslint-disable-line default-import-match-filename
 import DescriptionContext from '../../joist/js/DescriptionContext.js';
+import '../../scenery-phet/js/accessibility/describers/Alerter.js';
 
 const simOptions: SimOptions = {
   credits: {

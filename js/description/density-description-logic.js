@@ -12,6 +12,30 @@ export default () => phet.joist.DescriptionContext.registerLogic( {
     if ( introScreen ) {
       const introScreenView = context.get( 'density.introScreen.view' );
 
+      const alerter = new phet.sceneryPhet.Alerter( {
+        alertToVoicing: false,
+        descriptionAlertNode: introScreenView
+      } );
+
+      const blockA = context.get( 'density.introScreen.model.blocks.blockA' );
+      const blockB = context.get( 'density.introScreen.model.blocks.blockB' );
+
+      [ blockA, blockB ].forEach( block => {
+        const isBlockA = block === blockA;
+
+        // const blockUtterance = new phet.utteranceQueue.Utterance( {
+        //
+        // } );
+
+        context.lazyLink( block.visibleProperty, isVisible => {
+          alerter.alert( strings.blockVisibilityAlert( isBlockA, isVisible ) );
+        } );
+        context.lazyLink( block.userControlledProperty, userControlled => {
+          alerter.alert( strings.blockUserControlledAlert( isBlockA, userControlled ) );
+        } );
+      } );
+
+
       const simStateDescriptionNode = new phet.scenery.Node( {
         tagName: 'p'
       } );
@@ -30,11 +54,13 @@ export default () => phet.joist.DescriptionContext.registerLogic( {
         ]
       } ) );
 
-      const modeProperty = context.get( 'density.introScreen.model.modeProperty' );
-
-      context.link( modeProperty, mode => {
+      context.link( context.get( 'density.introScreen.model.modeProperty' ), mode => {
         simStateDescriptionNode.innerContent = strings.screenSummarySimStateDescription( mode.toString() );
       } );
+
+      // context.lazyLink( context.get( 'density.introScreen.model.modeProperty' ), mode => {
+      //   alerter.alert( mode.toString() === 'ONE_BLOCK' ? strings.oneBlockAlert() : strings.twoBlockAlert() );
+      // } );
     }
   },
   added( tandemID, obj ) {

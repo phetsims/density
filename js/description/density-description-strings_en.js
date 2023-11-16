@@ -11,14 +11,12 @@ export default () => phet.joist.DescriptionContext.registerStrings( {
   screenSummarySimStateDescription(
     blockMode
   ) {
-    if ( blockMode.toString() === 'ONE_BLOCK' ) {
-      return 'We have one block';
-    }
-    else if ( blockMode.toString() === 'TWO_BLOCKS' ) {
-      return 'We have two blocks';
-    }
-    else {
-      throw new Error();
-    }
+    return `There ${blockMode === 'ONE_BLOCK' ? 'is one block' : 'are two blocks'}.`;
+  },
+  blockVisibilityAlert( isBlockA, isVisible ) {
+    return `Block ${isBlockA ? 'A' : 'B'} ${isVisible ? 'added' : 'removed'}`;
+  },
+  blockUserControlledAlert( isBlockA, isUserControlled ) {
+    return `${isUserControlled ? 'Grabbed' : 'Dropped'} block ${isBlockA ? 'A' : 'B'}`;
   }
 } );

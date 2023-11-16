@@ -57,10 +57,6 @@ export default () => phet.joist.DescriptionContext.registerLogic( {
       context.link( context.get( 'density.introScreen.model.modeProperty' ), mode => {
         simStateDescriptionNode.innerContent = strings.screenSummarySimStateDescription( mode.toString() );
       } );
-
-      // context.lazyLink( context.get( 'density.introScreen.model.modeProperty' ), mode => {
-      //   alerter.alert( mode.toString() === 'ONE_BLOCK' ? strings.oneBlockAlert() : strings.twoBlockAlert() );
-      // } );
     }
   },
   added( tandemID, obj ) {

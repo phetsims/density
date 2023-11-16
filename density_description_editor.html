@@ -163,6 +163,14 @@
       padding: 0.5em;
     }
 
+    #error-container {
+      display: none;
+      border: 1px solid red;
+      margin: 5px 0;
+      padding: 5px;
+      color: darkred;
+    }
+
     .no-pad {
       margin-top: 0;
     }
@@ -186,12 +194,12 @@
     <div class="aspect-ratio">
       <iframe id="iframe" allowfullscreen scrolling="no" title="Interact with Density"></iframe>
     </div>
+    <div id="error-container"></div>
     <div id="alerts">
       <div class="activity-log-heading-container">
         <h3 class="activity-log-heading-item">Activity log of Responsive Descriptions</h3>
         <button class="activity-log-heading-item" id="clear-activity-log-button">Clear Log</button>
       </div>
-      <div id="error-container"></div>
       <div id='alert-copy-container' class='alert_copy_container' role='presentation'>
         <div id='polite-element-container'>
           <ul class='alert_copy' id='alert-list'></ul>
@@ -256,19 +264,49 @@
     lineWrapping: true
   } );
 
-  logicEditor.on( 'change', editor => {
-    console.log( editor.getValue() );
+  const runCode = async code => {
+    const errorContainer = document.querySelector( '#error-container' );
+    errorContainer.style.display = 'none';
 
+    try {
+      // eslint-disable-next-line no-undef
+      await iframe.contentWindow.phet.joist.DescriptionContext.externalLoad( code );
+    }
+    catch( e ) {
+      errorContainer.style.display = 'block';
+      errorContainer.innerHTML = `<pre>${e.toString()}</pre>`;
+    }
+  };
+
+  logicEditor.on( 'change', async editor => {
     // TODO: generalize this to all sims https://github.com/phetsims/joist/issues/941
     localStorage.setItem( 'density-description-logic.js', logicEditor.getValue() );
+
+    await runCode( editor.getValue() );
   } );
 
-  stringsEditor.on( 'change', editor => {
-    console.log( editor.getValue() );
-
+  stringsEditor.on( 'change', async editor => {
     // TODO: generalize this to all sims https://github.com/phetsims/joist/issues/941
     // TODO: generalize locales https://github.com/phetsims/joist/issues/941
     localStorage.setItem( 'density-description-strings_en.js', stringsEditor.getValue() );
+
+    await runCode( editor.getValue() );
+  } );
+
+  // Inject our plugins on load
+  window.addEventListener( 'message', async evt => {
+    if ( typeof evt.data !== 'string' ) {
+      return;
+    }
+
+    const data = JSON.parse( evt.data );
+
+    // Sent by Joist due to the postMessage* query parameters
+    if ( data.type === 'load' ) {
+
+      await runCode( logicEditor.getValue() );
+      await runCode( stringsEditor.getValue() );
+    }
   } );
 </script>
 

@@ -18,15 +18,30 @@ export default () => {
           descriptionAlertNode: introScreenView
         } );
 
+        const button = context.get( 'density.introScreen.view.densityAccordionBox.expandCollapseButton' );
+        context.nodeSet( button, 'labelContent', 'Expand Collapse BUtton' );
+
         const blockA = context.get( 'density.introScreen.model.blocks.blockA' );
         const blockB = context.get( 'density.introScreen.model.blocks.blockB' );
 
         [ blockA, blockB ].forEach( block => {
           const isBlockA = block === blockA;
+          const letter = isBlockA ? 'A' : 'B';
 
           // const blockUtterance = new phet.utteranceQueue.Utterance( {
           //
           // } );
+
+          const materialComboBox = context.get( `density.introScreen.view.block${letter}ControlPanel.comboBox` );
+          context.nodeSet( materialComboBox, 'accessibleName', strings.materialSliderAccessibleName( isBlockA ) );
+
+          const massSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.massNumberControl.slider` );
+          context.nodeSet( massSlider, 'labelContent', strings.massSliderLabelContent( isBlockA ) );
+          context.nodeSet( massSlider, 'labelTagName', 'label' );
+
+          const volumeSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.volumeNumberControl.slider` );
+          context.nodeSet( volumeSlider, 'labelContent', strings.volumeSliderLabelContent( isBlockA ) );
+          context.nodeSet( volumeSlider, 'labelTagName', 'label' );
 
           context.lazyLink( block.visibleProperty, isVisible => {
             alerter.alert( strings.blockVisibilityAlert( isBlockA, isVisible ) );
@@ -55,8 +70,26 @@ export default () => {
           ]
         } ) );
 
-        context.link( context.get( 'density.introScreen.model.modeProperty' ), mode => {
-          simStateDescriptionNode.innerContent = strings.screenSummarySimStateDescription( mode.toString() );
+        context.multilink( [
+          context.get( 'density.introScreen.model.modeProperty' ),
+          blockA.visibleProperty,
+          blockB.visibleProperty,
+          blockA.materialProperty,
+          blockB.materialProperty
+        ], (
+          mode,
+          visibleA,
+          visibleB,
+          materialA,
+          materialB
+        ) => {
+          simStateDescriptionNode.innerContent = strings.screenSummarySimStateDescription(
+            mode.toString(),
+            visibleA,
+            visibleB,
+            materialA.tandemName,
+            materialB.tandemName
+          );
         } );
       }
     },

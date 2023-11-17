@@ -1,5 +1,7 @@
 // Copyright 2023, University of Colorado Boulder
 
+// eslint-disable
+
 export default () => {
   const materialTandemMap = {
     wood: 'wood',
@@ -8,6 +10,11 @@ export default () => {
     ice: 'ice',
     brick: 'brick',
     custom: 'a custom material'
+  };
+
+  const densityMap = {
+    lessThanHuman: 'less dense than a human',
+    greaterThanHuman: 'more dense than a human'
   };
 
   return phet.joist.DescriptionContext.registerStrings( {
@@ -34,6 +41,48 @@ export default () => {
         str += `Block B is made of ${materialTandemMap[ materialB ]}. `;
       }
       return str;
+    },
+    densityReadout(
+      visibleA,
+      visibleB,
+      densityAType,
+      densityBType
+    ) {
+      let str = '';
+      if ( visibleA ) {
+        str += `Block A is ${densityMap[ densityAType ]}. `;
+      }
+      if ( visibleB ) {
+        str += `Block B is ${densityMap[ densityBType ]}. `;
+      }
+      return str;
+    },
+    modeButtonGroupLabelContent() {
+      return 'Number of Blocks';
+    },
+    oneBlock() {
+      return 'One Block';
+    },
+    twoBlocks() {
+      return 'Two Blocks';
+    },
+    blockAControls() {
+      return 'Block A Controls';
+    },
+    blockBControls() {
+      return 'Block B Controls';
+    },
+    blockAMassSliderAccessibleName() {
+      return 'Block A Mass';
+    },
+    blockBMassSliderAccessibleName() {
+      return 'Block B Mass';
+    },
+    blockAVolumeSliderAccessibleName() {
+      return 'Block A Volume';
+    },
+    blockBVolumeSliderAccessibleName() {
+      return 'Block B Volume';
     },
     blockVisibilityAlert( isBlockA, isVisible ) {
       return `Block ${isBlockA ? 'A' : 'B'} ${isVisible ? 'added' : 'removed'}`;

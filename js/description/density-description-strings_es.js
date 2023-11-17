@@ -1,5 +1,7 @@
 // Copyright 2023, University of Colorado Boulder
 
+// eslint-disable
+
 // eslint-disable-next-line no-unused-vars
 let context;
 

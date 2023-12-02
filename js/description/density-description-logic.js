@@ -39,6 +39,7 @@ export default () => {
         context.nodeSet( blockAControlPanel, 'labelTagName', 'h3' );
         context.nodeSet( blockAControlPanel, 'labelContent', strings.blockAControls() );
 
+        // TODO: should it move to the sim? Should it be factored out? What is the "production" version of this code https://github.com/phetsims/joist/issues/941
         context.nodeSet( blockBControlPanel, 'tagName', 'div' );
         context.nodeSet( blockBControlPanel, 'labelTagName', 'h3' );
         context.nodeSet( blockBControlPanel, 'labelContent', strings.blockBControls() );
@@ -67,7 +68,7 @@ export default () => {
         //context.nodeSet( densityReadout, 'descriptionContent', 'This describes it' );
 
         const densityToEnum = density => {
-          if ( density < 950 ) {
+          if ( density < 950 ) { // TODO: constant from sim https://github.com/phetsims/joist/issues/941
             return 'lessThanHuman';
           }
           else {

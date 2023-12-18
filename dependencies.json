@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "e6784498bf090600d65e9dc1fea2348d779fd02a",
+    "sha": "b9c2b1bc353e4ebd907698411420dee9881a8e8a",
     "branch": "1.1"
   },
   "density-buoyancy-common": {
@@ -89,7 +89,7 @@
     "branch": "HEAD"
   },
   "sun": {
-    "sha": "121d2d964a4773bbb22100bd15d9ad06c807827c",
+    "sha": "fb069d0a5979c8a19fc046cbac6d4045109e37bd",
     "branch": "HEAD"
   },
   "tambo": {

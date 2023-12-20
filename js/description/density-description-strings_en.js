@@ -90,7 +90,7 @@ export default () => {
     blockUserControlledAlert( isBlockA, isUserControlled ) {
       return `${isUserControlled ? 'Grabbed' : 'Dropped'} block ${isBlockA ? 'A' : 'B'}`;
     },
-    materialSliderAccessibleName( isBlockA ) {
+    materialComboBoxAccessibleName( isBlockA ) {
       return `Block ${isBlockA ? 'A' : 'B'} Material`;
     },
     massSliderLabelContent( isBlockA ) {

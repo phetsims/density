@@ -32,37 +32,6 @@ export default () => {
         const twoBlocksButton = context.get( 'density.introScreen.view.blocksRadioButtonGroup.twoBlocksRadioButton' );
         context.nodeSet( twoBlocksButton, 'labelContent', strings.twoBlocks() );
 
-        const blockAControlPanel = context.get( 'density.introScreen.view.blockAControlPanel' );
-        const blockBControlPanel = context.get( 'density.introScreen.view.blockBControlPanel' );
-
-        context.nodeSet( blockAControlPanel, 'tagName', 'div' );
-        context.nodeSet( blockAControlPanel, 'labelTagName', 'h3' );
-        context.nodeSet( blockAControlPanel, 'labelContent', strings.blockAControls() );
-
-        // TODO: should it move to the sim? Should it be factored out? What is the "production" version of this code https://github.com/phetsims/joist/issues/941
-        context.nodeSet( blockBControlPanel, 'tagName', 'div' );
-        context.nodeSet( blockBControlPanel, 'labelTagName', 'h3' );
-        context.nodeSet( blockBControlPanel, 'labelContent', strings.blockBControls() );
-
-        //const blockAMassControl = context.get( 'density.introScreen.view.blockAControlPanel.massNumberControl' );
-        //const blockBMassControl = context.get( 'density.introScreen.view.blockBControlPanel.massNumberControl' );
-
-        const blockAMassSlider = context.get( 'density.introScreen.view.blockAControlPanel.massNumberControl.slider' );
-        context.nodeSet( blockAMassSlider, 'accessibleName', strings.blockAMassSliderAccessibleName() );
-        context.nodeSet( blockAMassSlider, 'a11yCreateAriaValueText', value => strings.massSliderValue( value.toFixed( 2 ) ) );
-
-        const blockBMassSlider = context.get( 'density.introScreen.view.blockBControlPanel.massNumberControl.slider' );
-        context.nodeSet( blockBMassSlider, 'accessibleName', strings.blockBMassSliderAccessibleName() );
-        context.nodeSet( blockBMassSlider, 'a11yCreateAriaValueText', value => strings.massSliderValue( value.toFixed( 2 ) ) );
-
-        const blockAVolumeSlider = context.get( 'density.introScreen.view.blockAControlPanel.volumeNumberControl.slider' );
-        context.nodeSet( blockAVolumeSlider, 'accessibleName', strings.blockAVolumeSliderAccessibleName() );
-        context.nodeSet( blockAVolumeSlider, 'a11yCreateAriaValueText', value => strings.volumeSliderValue( value.toFixed( 2 ) ) );
-
-        const blockBVolumeSlider = context.get( 'density.introScreen.view.blockBControlPanel.volumeNumberControl.slider' );
-        context.nodeSet( blockBVolumeSlider, 'accessibleName', strings.blockBVolumeSliderAccessibleName() );
-        context.nodeSet( blockBVolumeSlider, 'a11yCreateAriaValueText', value => strings.volumeSliderValue( value.toFixed( 2 ) ) );
-
         const densityReadout = context.get( 'density.introScreen.view.densityAccordionBox.densityReadout' );
         context.nodeSet( densityReadout, 'tagName', 'div' );
         context.nodeSet( densityReadout, 'descriptionTagName', 'p' );
@@ -96,19 +65,6 @@ export default () => {
           ) );
         } );
 
-        // TODO: Get combo box working dynamically https://github.com/phetsims/joist/issues/941
-        //const woodItem = context.get( 'density.introScreen.view.blockAControlPanel.comboBox.listBox.woodItem' );
-        //context.nodeSet( woodItem, 'innerContent', 'Wood' );
-        //context.nodeSet( woodItem, 'voicingObjectResponse', 'Wood' );
-
-        //const blockAIncrementMassButton = context.get( 'density.introScreen.view.blockAControlPanel.massNumberControl.incrementButton' );
-        //const blockADecrementMassButton = context.get( 'density.introScreen.view.blockAControlPanel.massNumberControl.decrementButton' );
-        //context.nodeSet( blockAIncrementMassButton, 'tagName', null );
-        //context.nodeSet( blockADecrementMassButton, 'tagName', null );
-
-        //context.nodeSet( blockAMassControl, 'tagName', 'h4' );
-        //context.nodeSet( blockAMassControl, 'accessibleName', 'Block A Mass Control' );
-
         [ blockA, blockB ].forEach( block => {
           const isBlockA = block === blockA;
           const letter = isBlockA ? 'A' : 'B';
@@ -117,12 +73,29 @@ export default () => {
           //
           // } );
 
-          const materialComboBox = context.get( `density.introScreen.view.block${letter}ControlPanel.comboBox` );
-          context.nodeSet( materialComboBox, 'accessibleName', strings.materialSliderAccessibleName( isBlockA ) );
+          const blockControlPanel = context.get( `density.introScreen.view.block${letter}ControlPanel` );
+          context.nodeSet( blockControlPanel, 'tagName', 'div' );
+          context.nodeSet( blockControlPanel, 'labelTagName', 'h3' );
+          context.nodeSet( blockControlPanel, 'labelContent', isBlockA ? strings.blockAControls() : strings.blockBControls() );
 
-          //const volumeSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.volumeNumberControl.slider` );
-          //context.nodeSet( volumeSlider, 'labelContent', strings.volumeSliderLabelContent( isBlockA ) );
-          //context.nodeSet( volumeSlider, 'labelTagName', 'label' );
+          const materialComboBox = context.get( `density.introScreen.view.block${letter}ControlPanel.comboBox` );
+          context.nodeSet( materialComboBox, 'accessibleName', strings.materialComboBoxAccessibleName( isBlockA ) );
+          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'STYROFOAM' ), 'Styrofoam' );
+          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'WOOD' ), 'Wood' );
+          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'ICE' ), 'Ice' );
+          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'BRICK' ), 'Brick' );
+          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'ALUMINUM' ), 'Aluminum' );
+          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'CUSTOM' ), 'Custom' );
+
+          const roundTo2 = value => phet.dot.Utils.toFixed( value, 2 );
+
+          const blockMassSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.massNumberControl.slider` );
+          context.nodeSet( blockMassSlider, 'accessibleName', isBlockA ? strings.blockAMassSliderAccessibleName() : strings.blockBMassSliderAccessibleName() );
+          context.nodeSet( blockMassSlider, 'a11yCreateAriaValueText', value => strings.massSliderValue( roundTo2( value ) ) );
+
+          const blockVolumeSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.volumeNumberControl.slider` );
+          context.nodeSet( blockVolumeSlider, 'accessibleName', isBlockA ? strings.blockAVolumeSliderAccessibleName() : strings.blockBVolumeSliderAccessibleName() );
+          context.nodeSet( blockVolumeSlider, 'a11yCreateAriaValueText', value => strings.volumeSliderValue( roundTo2( value ) ) );
 
           context.lazyLink( block.visibleProperty, isVisible => {
             alerter.alert( strings.blockVisibilityAlert( isBlockA, isVisible ) );
@@ -138,6 +111,9 @@ export default () => {
         } );
 
         const resetAllButton = context.get( 'density.introScreen.view.resetAllButton' );
+
+        const blockAControlPanel = context.get( 'density.introScreen.view.blockAControlPanel' );
+        const blockBControlPanel = context.get( 'density.introScreen.view.blockBControlPanel' );
 
         context.nodeSet( introScreenView.pdomPlayAreaNode, 'pdomOrder', [
           blockAControlPanel,

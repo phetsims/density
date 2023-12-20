@@ -49,18 +49,19 @@ export default () => {
 
         const blockAMassSlider = context.get( 'density.introScreen.view.blockAControlPanel.massNumberControl.slider' );
         context.nodeSet( blockAMassSlider, 'accessibleName', strings.blockAMassSliderAccessibleName() );
-
-        // TODO: slider values and things https://github.com/phetsims/joist/issues/941
-        //context.nodeSet( blockAMassSlider, '_a11yCreateAriaValueText', value => 'Test ' + value );
+        context.nodeSet( blockAMassSlider, 'a11yCreateAriaValueText', value => strings.massSliderValue( value.toFixed( 2 ) ) );
 
         const blockBMassSlider = context.get( 'density.introScreen.view.blockBControlPanel.massNumberControl.slider' );
         context.nodeSet( blockBMassSlider, 'accessibleName', strings.blockBMassSliderAccessibleName() );
+        context.nodeSet( blockBMassSlider, 'a11yCreateAriaValueText', value => strings.massSliderValue( value.toFixed( 2 ) ) );
 
         const blockAVolumeSlider = context.get( 'density.introScreen.view.blockAControlPanel.volumeNumberControl.slider' );
         context.nodeSet( blockAVolumeSlider, 'accessibleName', strings.blockAVolumeSliderAccessibleName() );
+        context.nodeSet( blockAVolumeSlider, 'a11yCreateAriaValueText', value => strings.volumeSliderValue( value.toFixed( 2 ) ) );
 
         const blockBVolumeSlider = context.get( 'density.introScreen.view.blockBControlPanel.volumeNumberControl.slider' );
         context.nodeSet( blockBVolumeSlider, 'accessibleName', strings.blockBVolumeSliderAccessibleName() );
+        context.nodeSet( blockBVolumeSlider, 'a11yCreateAriaValueText', value => strings.volumeSliderValue( value.toFixed( 2 ) ) );
 
         const densityReadout = context.get( 'density.introScreen.view.densityAccordionBox.densityReadout' );
         context.nodeSet( densityReadout, 'tagName', 'div' );

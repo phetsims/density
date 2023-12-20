@@ -98,6 +98,12 @@ export default () => {
     },
     volumeSliderLabelContent( isBlockA ) {
       return `Block ${isBlockA ? 'A' : 'B'} Volume Slider`;
+    },
+    massSliderValue( kilograms ) {
+      return `${kilograms} kilograms`;
+    },
+    volumeSliderValue( liters ) {
+      return `${liters} liters`;
     }
   } );
 };

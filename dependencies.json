@@ -1,5 +1,5 @@
 {
-  "comment": "# density 1.1.5-rc.2 Wed Jan 03 2024 14:37:24 GMT-0700 (Mountain Standard Time)",
+  "comment": "# density 1.1.5 Wed Jan 03 2024 18:01:33 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "2b2495994e1a001ed46ba1e2147f70aacb5732d2",
     "branch": "HEAD"
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "f44b3be73de77fbbf377890e301b58cdadeee84e",
+    "sha": "a21a4f814e53fd720adcfea22bdcbe6afa13d95d",
     "branch": "1.1"
   },
   "density-buoyancy-common": {

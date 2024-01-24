@@ -54,8 +54,8 @@ simLauncher.launch( () => {
   DensityDescriptionStrings_es();
   DensityDescriptionLogic();
 
-  console.log( DensityDescriptionStrings_en.toString() );
-  console.log( DensityDescriptionLogic.toString() );
+  phet.log && phet.log( DensityDescriptionStrings_en.toString() );
+  phet.log && phet.log( DensityDescriptionLogic.toString() );
 
   const sim = new Sim( DensityStrings.density.titleStringProperty, [
     new IntroScreen( Tandem.ROOT.createTandem( 'introScreen' ) ),

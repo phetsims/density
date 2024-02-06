@@ -8,7 +8,6 @@
 
 import DensityBuoyancyCommonQueryParameters from '../../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
-import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
 import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
@@ -21,7 +20,7 @@ import DensityStrings from '../DensityStrings.js';
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityCompareScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
 
     super(
       () => new DensityCompareModel( {

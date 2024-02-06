@@ -8,7 +8,6 @@
 
 import DensityBuoyancyCommonQueryParameters from '../../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
-import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityMysteryModel from '../../../density-buoyancy-common/js/density/model/DensityMysteryModel.js';
 import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
@@ -21,7 +20,7 @@ import DensityStrings from '../DensityStrings.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityBuoyancyScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityMysteryScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
 
     super(
       () => new DensityMysteryModel( {

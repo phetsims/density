@@ -16,5 +16,5 @@ Additionally:
 - Velocity is limited to 5m/s
 - There are invisible walls and an invisible ceiling that keep masses within the workable area
 - The liquid level always remains flat (fluid "instantly" moves out of the way)
-- Air is ignored (buoyancy acts like there is a vaccuum, and there is no air friction).
+- Air is ignored (buoyancy acts like there is a vacuum, and there is no air friction).
 - Rotations are disallowed (as if torque doesn't happen)

@@ -17,10 +17,12 @@ import Tandem from '../../../tandem/js/Tandem.js';
 import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
+import ThreeUtils from '../../../mobius/js/ThreeUtils.js';
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityCompareScreenView.getDensityCompareIcon() : new Image( compare_screen_icon_png );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages && ThreeUtils.isWebGLEnabled() ? DensityCompareScreenView.getDensityCompareIcon() :
+                 new Image( compare_screen_icon_png );
 
     super(
       () => new DensityCompareModel( {

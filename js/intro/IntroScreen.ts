@@ -17,10 +17,12 @@ import Tandem from '../../../tandem/js/Tandem.js';
 import intro_screen_icon_png from '../../mipmaps/intro_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
+import ThreeUtils from '../../../mobius/js/ThreeUtils.js';
 
 export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityIntroScreenView.getDensityIntroIcon() : new Image( intro_screen_icon_png );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages && ThreeUtils.isWebGLEnabled() ? DensityIntroScreenView.getDensityIntroIcon() :
+                 new Image( intro_screen_icon_png );
 
     super(
       () => new DensityIntroModel( {

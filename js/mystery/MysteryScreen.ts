@@ -17,10 +17,12 @@ import Tandem from '../../../tandem/js/Tandem.js';
 import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
+import ThreeUtils from '../../../mobius/js/ThreeUtils.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages ? DensityMysteryScreenView.getDensityMysteryIcon() : new Image( mystery_screen_icon_png );
+    const icon = DensityBuoyancyCommonQueryParameters.generateIconImages && ThreeUtils.isWebGLEnabled() ? DensityMysteryScreenView.getDensityMysteryIcon() :
+                 new Image( mystery_screen_icon_png );
 
     super(
       () => new DensityMysteryModel( {

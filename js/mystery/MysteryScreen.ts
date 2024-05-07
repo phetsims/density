@@ -16,6 +16,7 @@ import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
+import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {
@@ -35,7 +36,8 @@ export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMy
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1
         } ),
-        tandem: tandem
+        tandem: tandem,
+        createKeyboardHelpNode: () => new DensityBuoyancyCommonKeyboardHelpNode( false, false )
       }
     );
   }

@@ -16,6 +16,7 @@ import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
+import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {
@@ -35,7 +36,8 @@ export default class CompareScreen extends Screen<DensityCompareModel, DensityCo
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1
         } ),
-        tandem: tandem
+        tandem: tandem,
+        createKeyboardHelpNode: () => new DensityBuoyancyCommonKeyboardHelpNode( true, false )
       }
     );
   }

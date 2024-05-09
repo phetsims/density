@@ -112,19 +112,19 @@ export default () => {
           tagName: 'p'
         } );
 
-        const resetAllButton = context.get( 'density.introScreen.view.resetAllButton' );
-
-        const blockAControlPanel = context.get( 'density.introScreen.view.blockAControlPanel' );
-        const blockBControlPanel = context.get( 'density.introScreen.view.blockBControlPanel' );
-
-        context.nodeSet( introScreenView.pdomPlayAreaNode, 'pdomOrder', [
-          blockAControlPanel,
-          blockBControlPanel
-        ] );
-        context.nodeSet( introScreenView.pdomControlAreaNode, 'pdomOrder', [
-          modeButtonGroup,
-          resetAllButton
-        ] );
+        // const resetAllButton = context.get( 'density.introScreen.view.resetAllButton' );
+        //
+        // const blockAControlPanel = context.get( 'density.introScreen.view.blockAControlPanel' );
+        // const blockBControlPanel = context.get( 'density.introScreen.view.blockBControlPanel' );
+        //
+        // context.nodeSet( introScreenView.pdomPlayAreaNode, 'pdomOrder', [
+        //   blockAControlPanel,
+        //   blockBControlPanel
+        // ] );
+        // context.nodeSet( introScreenView.pdomControlAreaNode, 'pdomOrder', [
+        //   modeButtonGroup,
+        //   resetAllButton
+        // ] );
 
         context.nodeSet( introScreenView, 'screenSummaryContent', new phet.scenery.Node( {
           children: [

@@ -196,7 +196,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.pool.liquidVolumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.showMassesProperty": {
+    "density.compareScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.volumeProperty": {
@@ -259,7 +259,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.model.pool.liquidVolumeProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.model.showMassesProperty": {
+    "density.introScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.view.blockAControlPanel.comboBoxMaterialProperty": {
@@ -784,7 +784,7 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.scale.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.showMassesProperty": {
+    "density.mysteryScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.view.blocksPanel.visibleProperty": {

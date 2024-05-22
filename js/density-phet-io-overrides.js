@@ -763,9 +763,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set3.block3E.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.densityTableExpandedProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.liquidDensityProperty": {
       "phetioFeatured": true
     },

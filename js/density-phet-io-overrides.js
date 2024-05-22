@@ -247,9 +247,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.model.blocks.blockB.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.model.densityExpandedProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.model.liquidDensityProperty": {
       "phetioFeatured": true
     },

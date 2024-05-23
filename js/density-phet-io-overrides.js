@@ -1,42 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.blockSets.sameDensity.blueBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.greenBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.redBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.yellowBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.blueBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.greenBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.redBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.yellowBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.blueBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.greenBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.redBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.yellowBlock.visibleProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.densityProperty": {
       "phetioFeatured": true
     },
@@ -98,66 +62,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.blockSetProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockA.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockB.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockC.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockD.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockE.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1A.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1B.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1C.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1D.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1E.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2A.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2B.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2C.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2D.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2E.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3A.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3B.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3C.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3D.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3E.visibleProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.liquidDensityProperty": {

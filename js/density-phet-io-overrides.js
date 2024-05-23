@@ -1,9 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.blockSets.sameDensity.blueBlock.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.massProperty": {
       "phetioFeatured": true
     },
@@ -14,9 +11,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.greenBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.greenBlock.massProperty": {
@@ -31,9 +25,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameDensity.greenBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameDensity.redBlock.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameDensity.redBlock.massProperty": {
       "phetioFeatured": true
     },
@@ -44,9 +35,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.redBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.yellowBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.yellowBlock.massProperty": {
@@ -61,9 +49,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameDensity.yellowBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameMass.blueBlock.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameMass.blueBlock.massProperty": {
       "phetioFeatured": true
     },
@@ -74,9 +59,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.blueBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.greenBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.greenBlock.massProperty": {
@@ -91,9 +73,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameMass.greenBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameMass.redBlock.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameMass.redBlock.massProperty": {
       "phetioFeatured": true
     },
@@ -104,9 +83,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.redBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.yellowBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.yellowBlock.massProperty": {
@@ -121,9 +97,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameMass.yellowBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameVolume.blueBlock.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameVolume.blueBlock.massProperty": {
       "phetioFeatured": true
     },
@@ -134,9 +107,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.blueBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.greenBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.greenBlock.massProperty": {
@@ -151,9 +121,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameVolume.greenBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameVolume.redBlock.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameVolume.redBlock.massProperty": {
       "phetioFeatured": true
     },
@@ -164,9 +131,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.redBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.yellowBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.yellowBlock.massProperty": {

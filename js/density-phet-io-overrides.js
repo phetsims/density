@@ -91,9 +91,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockAControlPanel.comboBoxMaterialProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.view.blockAControlPanel.massNumberControl.enabledMassRangeProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockAControlPanel.massNumberControl.numberControlMassProperty": {
       "phetioFeatured": true
     },
@@ -101,9 +98,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.introScreen.view.blockBControlPanel.comboBoxMaterialProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.view.blockBControlPanel.massNumberControl.enabledMassRangeProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.view.blockBControlPanel.visibleProperty": {

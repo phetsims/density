@@ -22,9 +22,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.model.blocks.blockB.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.view.blockAControlPanel.comboBoxMaterialProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockAControlPanel.massNumberControl.numberControlMassProperty": {
       "phetioFeatured": true
     },

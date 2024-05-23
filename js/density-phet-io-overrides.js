@@ -1,9 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.pool.liquidVolumeProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
@@ -31,9 +28,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.model.modeProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.model.pool.liquidVolumeProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
@@ -53,9 +47,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.blockSetProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.pool.liquidVolumeProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.scale.scaleForceInterpolatedProperty": {

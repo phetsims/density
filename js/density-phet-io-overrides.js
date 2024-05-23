@@ -16,12 +16,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.view.volumeNumberControl.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.model.blocks.blockA.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.model.blocks.blockB.visibleProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockAControlPanel.massNumberControl.numberControlMassProperty": {
       "phetioFeatured": true
     },
@@ -31,16 +25,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockBControlPanel.visibleProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.blockSetProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.scale.scaleForceInterpolatedProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.scale.scaleMeasuredMassProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.scale.visibleProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.view.blocksPanel.visibleProperty": {

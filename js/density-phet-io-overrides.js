@@ -1,16 +1,10 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.blockSets.sameDensity.blueBlock.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.visibleProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.greenBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.greenBlock.visibleProperty": {
@@ -19,16 +13,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameDensity.greenBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameDensity.redBlock.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameDensity.redBlock.visibleProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.redBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameDensity.yellowBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameDensity.yellowBlock.visibleProperty": {
@@ -37,16 +25,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameDensity.yellowBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameMass.blueBlock.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameMass.blueBlock.visibleProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.blueBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.greenBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.greenBlock.visibleProperty": {
@@ -55,16 +37,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameMass.greenBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameMass.redBlock.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameMass.redBlock.visibleProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.redBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameMass.yellowBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameMass.yellowBlock.visibleProperty": {
@@ -73,16 +49,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameMass.yellowBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameVolume.blueBlock.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameVolume.blueBlock.visibleProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.blueBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.greenBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.greenBlock.visibleProperty": {
@@ -91,16 +61,10 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.model.blockSets.sameVolume.greenBlock.volumeProperty": {
       "phetioFeatured": true
     },
-    "density.compareScreen.model.blockSets.sameVolume.redBlock.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameVolume.redBlock.visibleProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.redBlock.volumeProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.model.blockSets.sameVolume.yellowBlock.materialProperty": {
       "phetioFeatured": true
     },
     "density.compareScreen.model.blockSets.sameVolume.yellowBlock.visibleProperty": {
@@ -142,9 +106,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.model.blocks.blockA.inputEnabledProperty": {
       "phetioFeatured": true
     },
-    "density.introScreen.model.blocks.blockA.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.model.blocks.blockA.visibleProperty": {
       "phetioFeatured": true
     },
@@ -152,9 +113,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.introScreen.model.blocks.blockB.inputEnabledProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.model.blocks.blockB.materialProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.model.blocks.blockB.visibleProperty": {
@@ -211,9 +169,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockA.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.random.blockA.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.random.blockA.visibleProperty": {
       "phetioFeatured": true
     },
@@ -230,9 +185,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockB.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockB.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockB.visibleProperty": {
@@ -253,9 +205,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockC.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.random.blockC.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.random.blockC.visibleProperty": {
       "phetioFeatured": true
     },
@@ -272,9 +221,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockD.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.random.blockD.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.random.blockD.visibleProperty": {
@@ -295,9 +241,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.random.blockE.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.random.blockE.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.random.blockE.visibleProperty": {
       "phetioFeatured": true
     },
@@ -314,9 +257,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1A.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1A.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1A.visibleProperty": {
@@ -337,9 +277,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set1.block1B.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.block1B.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set1.block1B.visibleProperty": {
       "phetioFeatured": true
     },
@@ -356,9 +293,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1C.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1C.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1C.visibleProperty": {
@@ -379,9 +313,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set1.block1D.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set1.block1D.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set1.block1D.visibleProperty": {
       "phetioFeatured": true
     },
@@ -398,9 +329,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1E.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set1.block1E.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set1.block1E.visibleProperty": {
@@ -421,9 +349,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set2.block2A.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.block2A.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set2.block2A.visibleProperty": {
       "phetioFeatured": true
     },
@@ -440,9 +365,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2B.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2B.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2B.visibleProperty": {
@@ -463,9 +385,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set2.block2C.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.block2C.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set2.block2C.visibleProperty": {
       "phetioFeatured": true
     },
@@ -482,9 +401,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2D.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set2.block2D.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set2.block2D.visibleProperty": {
@@ -505,9 +421,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set2.block2E.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set2.block2E.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set2.block2E.visibleProperty": {
       "phetioFeatured": true
     },
@@ -524,9 +437,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3A.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3A.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3A.visibleProperty": {
@@ -547,9 +457,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set3.block3B.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.block3B.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set3.block3B.visibleProperty": {
       "phetioFeatured": true
     },
@@ -566,9 +473,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3C.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3C.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3C.visibleProperty": {
@@ -589,9 +493,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.mysteryScreen.model.blockSets.set3.block3D.materialEnumProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.blockSets.set3.block3D.materialProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.blockSets.set3.block3D.visibleProperty": {
       "phetioFeatured": true
     },
@@ -608,9 +509,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3E.materialEnumProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.blockSets.set3.block3E.materialProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.blockSets.set3.block3E.visibleProperty": {
@@ -641,6 +539,9 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.scale.massProperty":{
+      "phetioFeatured": false
+    },
+    "density.mysteryScreen.model.scale.materialProperty":{
       "phetioFeatured": false
     }
   };

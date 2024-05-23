@@ -1,9 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.densityProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.liquidDensityProperty": {
       "phetioFeatured": true
     },

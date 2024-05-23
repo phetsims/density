@@ -1,9 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.showMassValuesProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.view.blocksPanel.blocksRadioButtonGroup.visibleProperty": {
       "phetioFeatured": false
     },
@@ -26,9 +23,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.introScreen.model.modeProperty": {
-      "phetioFeatured": true
-    },
-    "density.introScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
     "density.introScreen.view.blockAControlPanel.comboBoxMaterialProperty": {
@@ -56,9 +50,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
       "phetioFeatured": true
     },
     "density.mysteryScreen.model.scale.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.mysteryScreen.model.showMassValuesProperty": {
       "phetioFeatured": true
     },
     "density.mysteryScreen.view.blocksPanel.visibleProperty": {

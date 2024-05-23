@@ -1,9 +1,6 @@
 /* eslint-disable */
 window.phet.preloads.phetio.phetioElementsOverrides =
   {
-    "density.compareScreen.model.blockSets.blockSetProperty": {
-      "phetioFeatured": true
-    },
     "density.compareScreen.model.blockSets.sameDensity.blueBlock.inputEnabledProperty": {
       "phetioFeatured": true
     },

@@ -16,9 +16,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.introScreen.view.blockAControlPanel.massNumberControl.numberControlMassProperty": {
       "phetioFeatured": true
     },
-    "density.mysteryScreen.model.scale.scaleForceInterpolatedProperty": {
-      "phetioFeatured": true
-    },
     "density.mysteryScreen.model.scale.scaleMeasuredMassProperty": {
       "phetioFeatured": true
     },

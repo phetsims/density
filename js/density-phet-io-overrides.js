@@ -4,15 +4,6 @@ window.phet.preloads.phetio.phetioElementsOverrides =
     "density.compareScreen.view.blocksPanel.blocksRadioButtonGroup.visibleProperty": {
       "phetioFeatured": false
     },
-    "density.compareScreen.view.densityNumberControl.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.view.massNumberControl.visibleProperty": {
-      "phetioFeatured": true
-    },
-    "density.compareScreen.view.volumeNumberControl.visibleProperty": {
-      "phetioFeatured": true
-    },
     "density.introScreen.view.blockAControlPanel.massNumberControl.numberControlMassProperty": {
       "phetioFeatured": true
     },

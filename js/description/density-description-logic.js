@@ -93,11 +93,11 @@ export default () => {
 
           const blockMassSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.massNumberControl.slider` );
           context.nodeSet( blockMassSlider, 'accessibleName', isBlockA ? strings.blockAMassSliderAccessibleName() : strings.blockBMassSliderAccessibleName() );
-          context.nodeSet( blockMassSlider, 'a11yCreateAriaValueText', value => strings.massSliderValue( roundTo2( value ) ) );
+          context.nodeSet( blockMassSlider, 'pdomCreateAriaValueText', value => strings.massSliderValue( roundTo2( value ) ) );
 
           const blockVolumeSlider = context.get( `density.introScreen.view.block${letter}ControlPanel.volumeNumberControl.slider` );
           context.nodeSet( blockVolumeSlider, 'accessibleName', isBlockA ? strings.blockAVolumeSliderAccessibleName() : strings.blockBVolumeSliderAccessibleName() );
-          context.nodeSet( blockVolumeSlider, 'a11yCreateAriaValueText', value => strings.volumeSliderValue( roundTo2( value ) ) );
+          context.nodeSet( blockVolumeSlider, 'pdomCreateAriaValueText', value => strings.volumeSliderValue( roundTo2( value ) ) );
 
           context.lazyLink( block.visibleProperty, isVisible => {
             alerter.alert( strings.blockVisibilityAlert( isBlockA, isVisible ) );

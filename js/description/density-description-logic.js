@@ -25,13 +25,13 @@ export default () => {
         const blockA = context.get( 'density.introScreen.model.blocks.blockA' );
         const blockB = context.get( 'density.introScreen.model.blocks.blockB' );
 
-        const modeButtonGroup = context.get( 'density.introScreen.view.blocksRadioButtonGroup' );
+        const modeButtonGroup = context.get( 'density.introScreen.view.blocksModeRadioButtonGroup' );
         context.nodeSet( modeButtonGroup, 'labelContent', strings.modeButtonGroupLabelContent() );
 
-        const oneBlockButton = context.get( 'density.introScreen.view.blocksRadioButtonGroup.oneBlockRadioButton' );
+        const oneBlockButton = context.get( 'density.introScreen.view.blocksModeRadioButtonGroup.oneBlockRadioButton' );
         context.nodeSet( oneBlockButton, 'labelContent', strings.oneBlock() );
 
-        const twoBlocksButton = context.get( 'density.introScreen.view.blocksRadioButtonGroup.twoBlocksRadioButton' );
+        const twoBlocksButton = context.get( 'density.introScreen.view.blocksModeRadioButtonGroup.twoBlocksRadioButton' );
         context.nodeSet( twoBlocksButton, 'labelContent', strings.twoBlocks() );
 
         const densityReadout = context.get( 'density.introScreen.view.densityAccordionBox.densityReadout' );

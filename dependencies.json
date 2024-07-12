@@ -1,5 +1,5 @@
 {
-  "comment": "# density 1.1.10-rc.2 Wed Jul 10 2024 12:59:15 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# density 1.1.10 Fri Jul 12 2024 16:25:46 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "2b2495994e1a001ed46ba1e2147f70aacb5732d2",
     "branch": "HEAD"
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "70773657036e54a4d1269b249c42bca3461b4ed0",
+    "sha": "5dc4fde135565419611521ea3b39e097b5a2c801",
     "branch": "1.1"
   },
   "density-buoyancy-common": {

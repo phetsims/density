@@ -24,6 +24,7 @@ export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMy
 
     super(
       () => new DensityMysteryModel( {
+        fluidSelectionType: 'justWater',
         tandem: tandem.createTandem( 'model' )
       } ),
       model => new DensityMysteryScreenView( model, {

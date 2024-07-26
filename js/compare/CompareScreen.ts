@@ -24,7 +24,6 @@ export default class CompareScreen extends Screen<DensityCompareModel, DensityCo
 
     super(
       () => new DensityCompareModel( {
-        fluidSelectionType: 'justWater',
         tandem: tandem.createTandem( 'model' )
       } ),
       model => new DensityCompareScreenView( model, {

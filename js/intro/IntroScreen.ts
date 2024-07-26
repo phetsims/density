@@ -24,7 +24,6 @@ export default class IntroScreen extends Screen<DensityIntroModel, DensityIntroS
 
     super(
       () => new DensityIntroModel( {
-        fluidSelectionType: 'justWater',
         tandem: tandem.createTandem( 'model' )
       } ),
       model => new DensityIntroScreenView( model, {

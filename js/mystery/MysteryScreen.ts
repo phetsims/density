@@ -17,10 +17,11 @@ import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
+import getDensityMysteryIcon from '../../../density-buoyancy-common/js/density/view/getDensityMysteryIcon.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyScreenView.getThreeIcon( mystery_screen_icon_png, () => DensityMysteryScreenView.getDensityMysteryIcon() );
+    const icon = DensityBuoyancyScreenView.getThreeIcon( mystery_screen_icon_png, () => getDensityMysteryIcon() );
 
     super(
       () => new DensityMysteryModel( {

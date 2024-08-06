@@ -17,10 +17,11 @@ import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
 import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
+import getDensityCompareIcon from '../../../density-buoyancy-common/js/density/view/getDensityCompareIcon.js';
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {
-    const icon = DensityBuoyancyScreenView.getThreeIcon( compare_screen_icon_png, () => DensityCompareScreenView.getDensityCompareIcon() );
+    const icon = DensityBuoyancyScreenView.getThreeIcon( compare_screen_icon_png, () => getDensityCompareIcon() );
 
     super(
       () => new DensityCompareModel( {

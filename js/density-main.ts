@@ -21,17 +21,10 @@ import DensityDescriptionLogic from './description/density-description-logic.js'
 import DescriptionContext from '../../joist/js/DescriptionContext.js';
 import '../../scenery-phet/js/accessibility/describers/Alerter.js';
 import DensityBuoyancyCommonQueryParameters from '../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
+import DensityBuoyancyCommonCredits from '../../density-buoyancy-common/js/common/DensityBuoyancyCommonCredits.js';
 
 const simOptions: SimOptions = {
-  credits: {
-    leadDesign: 'Diana L\u00f3pez Tavares, Kelly Lancaster',
-    softwareDevelopment: 'Jonathan Olson, Chris Malley (PixelZoom, Inc.), Sam Reid',
-    team: 'Wendy Adams, Trish Loeblein, Ariel Paul, Archie Paulson, Kathy Perkins, Noah Podolefsky, Amy Rouinfar, Carl Wieman',
-    qualityAssurance: 'Logan Bray, Steele Dalton, Jaron Droder, Brooklyn Lash, Emily Miller, Liam Mulhall, Devon Quispe, Jacob Romero, Nancy Salpepi, Katie Woessner',
-    graphicArts: '',
-    soundDesign: '',
-    thanks: ''
-  },
+  credits: DensityBuoyancyCommonCredits,
   webgl: true,
 
   preferencesModel: new PreferencesModel( {

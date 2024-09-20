@@ -63,7 +63,7 @@
         },
         "parserOptions": {
           "project": [
-            "../density/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }

@@ -6,22 +6,22 @@
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
 
+import DensityBuoyancyCommonCredits from '../../density-buoyancy-common/js/common/DensityBuoyancyCommonCredits.js';
+import DensityBuoyancyCommonQueryParameters from '../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
+import DensityBuoyancyCommonPreferencesNode from '../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonPreferencesNode.js';
+import DescriptionContext from '../../joist/js/DescriptionContext.js';
+import '../../scenery-phet/js/accessibility/describers/Alerter.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import DensityStrings from './DensityStrings.js';
 import CompareScreen from './compare/CompareScreen.js';
-import IntroScreen from './intro/IntroScreen.js';
-import MysteryScreen from './mystery/MysteryScreen.js';
-import DensityBuoyancyCommonPreferencesNode from '../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonPreferencesNode.js';
-import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
+import DensityStrings from './DensityStrings.js';
+import DensityDescriptionLogic from './description/density-description-logic.js'; // eslint-disable-line default-import-match-filename
 import DensityDescriptionStrings_en from './description/density-description-strings_en.js'; // eslint-disable-line default-import-match-filename
 import DensityDescriptionStrings_es from './description/density-description-strings_es.js'; // eslint-disable-line default-import-match-filename
-import DensityDescriptionLogic from './description/density-description-logic.js'; // eslint-disable-line default-import-match-filename
-import DescriptionContext from '../../joist/js/DescriptionContext.js';
-import '../../scenery-phet/js/accessibility/describers/Alerter.js';
-import DensityBuoyancyCommonQueryParameters from '../../density-buoyancy-common/js/common/DensityBuoyancyCommonQueryParameters.js';
-import DensityBuoyancyCommonCredits from '../../density-buoyancy-common/js/common/DensityBuoyancyCommonCredits.js';
+import IntroScreen from './intro/IntroScreen.js';
+import MysteryScreen from './mystery/MysteryScreen.js';
 
 const simOptions: SimOptions = {
   credits: DensityBuoyancyCommonCredits,

@@ -17,9 +17,9 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import CompareScreen from './compare/CompareScreen.js';
 import DensityStrings from './DensityStrings.js';
-import DensityDescriptionLogic from './description/density-description-logic.js'; // eslint-disable-line default-import-match-filename
-import DensityDescriptionStrings_en from './description/density-description-strings_en.js'; // eslint-disable-line default-import-match-filename
-import DensityDescriptionStrings_es from './description/density-description-strings_es.js'; // eslint-disable-line default-import-match-filename
+import DensityDescriptionLogic from './description/density-description-logic.js'; // eslint-disable-line phet/default-import-match-filename
+import DensityDescriptionStrings_en from './description/density-description-strings_en.js'; // eslint-disable-line phet/default-import-match-filename
+import DensityDescriptionStrings_es from './description/density-description-strings_es.js'; // eslint-disable-line phet/default-import-match-filename
 import IntroScreen from './intro/IntroScreen.js';
 import MysteryScreen from './mystery/MysteryScreen.js';
 

@@ -17,11 +17,11 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "112c7e16fd65350287bb2ecf7fd6123e81ba89f9",
+    "sha": "d52447d8aa22ca09a3bb0ae2411f41200bcd64af",
     "branch": "1.2"
   },
   "density-buoyancy-common": {
-    "sha": "12c7c608676f0f7e1f7eb33c083ddc00074ec1ca",
+    "sha": "7a3467d1324eb36f0f6ffec114e205d3dc430907",
     "branch": "HEAD"
   },
   "dot": {

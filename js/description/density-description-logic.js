@@ -82,12 +82,12 @@ export default () => {
 
           const materialComboBox = context.get( `density.introScreen.view.block${letter}ControlPanel.comboBox` );
           context.nodeSet( materialComboBox, 'accessibleName', strings.materialComboBoxAccessibleName( isBlockA ) );
-          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'STYROFOAM' ), 'Styrofoam' );
-          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'WOOD' ), 'Wood' );
-          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'ICE' ), 'Ice' );
-          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'BRICK' ), 'Brick' );
-          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'ALUMINUM' ), 'Aluminum' );
-          context.propertySet( materialComboBox.a11yNamePropertyMap.get( 'CUSTOM' ), 'Custom' );
+          context.propertySet( materialComboBox.accessibleNamePropertyMap.get( 'STYROFOAM' ), 'Styrofoam' );
+          context.propertySet( materialComboBox.accessibleNamePropertyMap.get( 'WOOD' ), 'Wood' );
+          context.propertySet( materialComboBox.accessibleNamePropertyMap.get( 'ICE' ), 'Ice' );
+          context.propertySet( materialComboBox.accessibleNamePropertyMap.get( 'BRICK' ), 'Brick' );
+          context.propertySet( materialComboBox.accessibleNamePropertyMap.get( 'ALUMINUM' ), 'Aluminum' );
+          context.propertySet( materialComboBox.accessibleNamePropertyMap.get( 'CUSTOM' ), 'Custom' );
 
           const roundTo2 = value => phet.dot.Utils.toFixed( value, 2 );
 

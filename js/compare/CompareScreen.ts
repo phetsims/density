@@ -7,17 +7,17 @@
  */
 
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
+import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
+import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityCompareModel from '../../../density-buoyancy-common/js/density/model/DensityCompareModel.js';
 import DensityCompareScreenView from '../../../density-buoyancy-common/js/density/view/DensityCompareScreenView.js';
+import getDensityCompareIcon from '../../../density-buoyancy-common/js/density/view/getDensityCompareIcon.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import compare_screen_icon_png from '../../mipmaps/compare_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
-import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
-import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
-import getDensityCompareIcon from '../../../density-buoyancy-common/js/density/view/getDensityCompareIcon.js';
 
 export default class CompareScreen extends Screen<DensityCompareModel, DensityCompareScreenView> {
   public constructor( tandem: Tandem ) {

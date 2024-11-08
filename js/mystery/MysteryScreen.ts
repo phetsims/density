@@ -7,17 +7,17 @@
  */
 
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
+import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
+import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
 import DensityMysteryModel from '../../../density-buoyancy-common/js/density/model/DensityMysteryModel.js';
 import DensityMysteryScreenView from '../../../density-buoyancy-common/js/density/view/DensityMysteryScreenView.js';
+import getDensityMysteryIcon from '../../../density-buoyancy-common/js/density/view/getDensityMysteryIcon.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
 import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
-import DensityBuoyancyScreenView from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyScreenView.js';
-import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
-import getDensityMysteryIcon from '../../../density-buoyancy-common/js/density/view/getDensityMysteryIcon.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
   public constructor( tandem: Tandem ) {

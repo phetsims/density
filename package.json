@@ -34,7 +34,8 @@
     "supportsOutputJS": true,
     "published": true,
     "phet-io": {
-      "compareDesignedAPIChanges": true
+      "compareDesignedAPIChanges": true,
+      "allowPublicAccess": true
     },
     "screenNameKeys": [
       "DENSITY/screen.intro",

@@ -9,15 +9,15 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "d2b54ef4d29edc31e64adb2f9488803811cad03a",
+    "sha": "68ada5c4cd6d4ed7ecb6e4237cdd247a00e4dca8",
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "e7b4001f81604c1d37b00f3f882fdcd5d327e2b0",
+    "sha": "c03e90d153fae0f13f21ddbdfceec7f892b05b23",
     "branch": "HEAD"
   },
   "density": {
-    "sha": "07c1b4cc27cd698fa2d1f18e00dd3b58e177048e",
+    "sha": "76677d7b6d12308f7fb93a3c383c26a8a1a5718b",
     "branch": "1.1"
   },
   "density-buoyancy-common": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "90d11b3a22720f8959d27b6d633d693b4a11a15d",
+    "sha": "063fbae533d779e54183bbcf794ac0d0e6d391ba",
     "branch": "HEAD"
   },
   "kite": {

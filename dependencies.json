@@ -1,5 +1,5 @@
 {
-  "comment": "# density 1.2.4-rc.1 Thu Mar 06 2025 00:06:27 GMT-0700 (Mountain Standard Time)",
+  "comment": "# density 1.2.4 Mon Mar 10 2025 13:11:17 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "97814da940cdb96ce878d480a7a85e7e5f1a78a2",
+    "sha": "60eb6d7ab8cff3153d12506c36708e14b98daa46",
     "branch": "1.2"
   },
   "density-buoyancy-common": {

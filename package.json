@@ -28,7 +28,6 @@
     "simFeatures": {
       "supportsDynamicLocale": true,
       "supportsInteractiveDescription": true,
-      "supportsDescriptionPlugin": false,
       "supportsSound": true
     },
     "simulation": true,

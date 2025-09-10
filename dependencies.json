@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "e09b7a3f145a44d4f3433ad0b940a720d3edcf52",
+    "sha": "808505df9d460802cd12528964e8ea8400d69b72",
     "branch": "1.2"
   },
   "density-buoyancy-common": {
@@ -77,7 +77,7 @@
     "branch": "HEAD"
   },
   "scenery-phet": {
-    "sha": "e1dbb631ae7033e2870ed366b439cee95cdea099",
+    "sha": "7746487982317166cd1a93679e96b9adb1fef7d4",
     "branch": "HEAD"
   },
   "sherpa": {

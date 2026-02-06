@@ -1,5 +1,5 @@
 {
-  "comment": "# density 1.2.8-rc.1 Mon Feb 02 2026 17:13:59 GMT-0500 (Eastern Standard Time)",
+  "comment": "# density 1.2.8 Fri Feb 06 2026 15:11:17 GMT-0500 (Eastern Standard Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "19b3e8b8e782e8fe3f20236818085788c0cb5823",
+    "sha": "e9b72fcfcab4a7adce12970a02363ec613c25c1c",
     "branch": "1.2"
   },
   "density-buoyancy-common": {

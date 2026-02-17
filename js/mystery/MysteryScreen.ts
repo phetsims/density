@@ -3,7 +3,7 @@
 /**
  * Mystery screen for Density
  *
- * @author Jonathan Olson <jonathan.olson@colorado.edu>
+ * @author Jonathan Olson (PhET Interactive Simulations)
  */
 
 import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';

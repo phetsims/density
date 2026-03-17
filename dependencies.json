@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "cedfba999a7ac32600c54384e98e1f2c9c0719c8",
+    "sha": "c5ae0da4055ac93bea280579134ee6e846b5dac7",
     "branch": "1.2"
   },
   "density-buoyancy-common": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "73c970c2be277b3a2f06acddd02d410cf0e6a862",
+    "sha": "dcb6be158768f65ee4bbbc27ee1ccdd292a60d0c",
     "branch": "HEAD"
   },
   "kite": {

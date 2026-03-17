@@ -9,7 +9,7 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "1caecc5b99140a0511f19b2c2a05c214c5ac036d",
+    "sha": "2ccf1076c74e8c35521348282160c4df3536ed8a",
     "branch": "HEAD"
   },
   "chipper": {
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "density": {
-    "sha": "8ad34314ab0b31cdf19282785e98c6086d39ba52",
+    "sha": "22f1a84f1c2a223fea4bdd5cfcc7bc042a8d51ad",
     "branch": "1.2"
   },
   "density-buoyancy-common": {

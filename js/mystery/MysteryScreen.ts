@@ -16,7 +16,6 @@ import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import Tandem from '../../../tandem/js/Tandem.js';
 import mystery_screen_icon_png from '../../mipmaps/mystery_screen_icon_png.js';
-import density from '../density.js';
 import DensityStrings from '../DensityStrings.js';
 
 export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMysteryScreenView> {
@@ -43,5 +42,3 @@ export default class MysteryScreen extends Screen<DensityMysteryModel, DensityMy
     );
   }
 }
-
-density.register( 'MysteryScreen', MysteryScreen );

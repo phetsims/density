@@ -24,4 +24,6 @@ type StringsType = {
 
 const DensityStrings = getStringModule( 'DENSITY' ) as StringsType;
 
+density.register( 'DensityStrings', DensityStrings );
+
 export default DensityStrings;
